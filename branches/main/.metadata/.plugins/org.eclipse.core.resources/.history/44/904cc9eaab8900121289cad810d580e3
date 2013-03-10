@@ -1,0 +1,9 @@
+package br.ufal.ic.comp215.srm.model;
+
+public class LoginModelInterface {
+
+	public LoginModelInterface() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
