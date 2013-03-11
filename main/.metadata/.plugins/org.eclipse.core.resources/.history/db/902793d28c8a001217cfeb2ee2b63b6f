@@ -1,0 +1,15 @@
+package br.ufal.ic.srm.model;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+public class User {
+	@Id
+	@GeneratedValue
+	private Integer id;
+
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

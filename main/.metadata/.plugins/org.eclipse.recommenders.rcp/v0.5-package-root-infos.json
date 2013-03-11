@@ -1,0 +1,1250 @@
+[
+  {
+    "symbolicName": "org.hibernate.javax.persistence.hibernate-jpa-2.0-api",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "3306a165afa81938fc3d8a0948e891de9f6b192b",
+    "jarFileModificationDate": "2012-10-31T18:28:26-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "net.sf.ehcache.ehcache-core",
+    "version": {
+      "major": 2,
+      "minor": 4,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fd258ef6959f27fb678b04f90139ded4588e2d15",
+    "jarFileModificationDate": "2012-11-01T02:05:40-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/ehcache-core-2.4.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "58f85ed2171ff07f044333bf03d318abdee8fa68",
+    "jarFileModificationDate": "2012-10-24T15:15:11-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "c3p0-0.9.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0759f6c11f515ee799814c43e4a50281220014ca",
+    "jarFileModificationDate": "2012-11-01T02:05:36-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/c3p0-0.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.marshalling.jboss-marshalling",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 15,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "655409440ac9cdd5a8c520caafb512a5f19ae1ae",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/jboss-marshalling-1.3.15.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "37bfc2467d98f530564bc85db80d11591d9c1e3c",
+    "jarFileModificationDate": "2012-10-24T15:09:10-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "hibernate-proxool-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "db65bbeaed608900473353635a4e682027f87b23",
+    "jarFileModificationDate": "2013-02-20T18:37:44-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-proxool-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "log4j",
+    "version": {
+      "major": 1,
+      "minor": 2,
+      "micro": 17,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4f90475694c41965c9a0c8bac53ea5c690dea446",
+    "jarFileModificationDate": "2012-05-06T08:01:46-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/log4j-1.2.17.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-ehcache-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b0f3796b038cedb23f51685831218e7ef8285c42",
+    "jarFileModificationDate": "2013-02-20T18:37:36-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-ehcache-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "antlr-2.7.7",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "83cd2cd674a217ade95a4bb83a8a14f351f48bd0",
+    "jarFileModificationDate": "2012-10-31T18:28:16-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/antlr-2.7.7.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "annotations-api",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "72b0c5217c5def7245891088418fd279af4f1c53",
+    "jarFileModificationDate": "2013-01-10T13:28:25-03:00",
+    "location": "/usr/share/tomcat7/lib/annotations-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-entitymanager-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f069607c5a4fa4313205a6d1fb76f70e3524e322",
+    "jarFileModificationDate": "2013-02-20T18:37:38-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-entitymanager-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-fr",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0233ef9bc1d763542d3dca49199365a6e172ae3c",
+    "jarFileModificationDate": "2013-01-10T13:10:36-03:00",
+    "location": "/usr/share/tomcat7/lib/tomcat-i18n-fr.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.infinispan.core",
+    "version": {
+      "major": 5,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "Beta3"
+    },
+    "jarFileFingerprint": "b4655ff30bee7413598b64b62105736b94d7ec34",
+    "jarFileModificationDate": "2012-11-01T02:05:50-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/infinispan-core-5.2.0.Beta3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.tomcat.api",
+    "version": {
+      "major": 7,
+      "minor": 0,
+      "micro": 26,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d056c0f978900cfdb2741ee07947223f19cfba2b",
+    "jarFileModificationDate": "2013-01-10T13:28:40-03:00",
+    "location": "/usr/share/tomcat7/lib/tomcat-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "dom4j-1.6.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5d3ccc056b6f056dbf0dddfdf43894b9065a8f94",
+    "jarFileModificationDate": "2012-10-31T18:27:48-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/dom4j-1.6.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "antlr-2.7.7",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "83cd2cd674a217ade95a4bb83a8a14f351f48bd0",
+    "jarFileModificationDate": "2012-10-31T18:28:16-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/antlr-2.7.7.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-core-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1600b79cffc60111a656e9ab045d31b077da82d1",
+    "jarFileModificationDate": "2013-02-20T18:37:32-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-core-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bb08abb3b50358c8beb8b67b5b65cf0c28406f79",
+    "jarFileModificationDate": "2013-01-10T13:28:27-03:00",
+    "location": "/usr/share/tomcat7/lib/catalina.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-es",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "38d2014a175410c75feb20ebf5a131bd7529ef32",
+    "jarFileModificationDate": "2013-01-10T13:10:36-03:00",
+    "location": "/usr/share/tomcat7/lib/tomcat-i18n-es.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.staxmapper",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "af938b7fead1eb6e1d54e001aceb7d92bf71c013",
+    "jarFileModificationDate": "2012-10-12T13:49:42-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/staxmapper-1.1.0.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.hibernate.common.hibernate-commons-annotations",
+    "version": {
+      "major": 4,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "78bcf608d997d0529be2f4f781fdc89e801c9e88",
+    "jarFileModificationDate": "2012-10-31T18:28:26-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-commons-annotations-4.0.1.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-ant",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c3b794e3a41c8286c20e8ff14a22c85fa4a8fc26",
+    "jarFileModificationDate": "2013-01-10T13:10:36-03:00",
+    "location": "/usr/share/tomcat7/lib/catalina-ant.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.staxmapper",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "af938b7fead1eb6e1d54e001aceb7d92bf71c013",
+    "jarFileModificationDate": "2012-10-12T13:49:42-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/staxmapper-1.1.0.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "javax.servlet.jsp",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "v201103241327"
+    },
+    "jarFileFingerprint": "2e77df31de6ff1313963cee8cfafbe280e9dda78",
+    "jarFileModificationDate": "2013-01-10T13:28:41-03:00",
+    "location": "/usr/share/tomcat7/lib/jsp-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "a521e1218adef92f6ca531a21fbfe57e25ea4629",
+    "jarFileModificationDate": "2012-10-24T15:10:10-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "dom4j-1.6.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5d3ccc056b6f056dbf0dddfdf43894b9065a8f94",
+    "jarFileModificationDate": "2012-10-31T18:27:48-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/dom4j-1.6.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ant-1.6.5",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7d18faf23df1a5c3a43613952e0e8a182664564b",
+    "jarFileModificationDate": "2006-05-05T23:55:38-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/ant-1.6.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8d6c4a7e9377e647f6445729f240f6021c5eb9db",
+    "jarFileModificationDate": "2012-10-24T15:09:13-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "60effbea46b56aeee015476bc6d8d98c72ce0848",
+    "jarFileModificationDate": "2012-10-24T15:10:42-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "2ab6236535e085d86f37fd97ddfdd35c88c1a419",
+    "jarFileModificationDate": "2012-10-31T18:28:26-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/jboss-transaction-api_1.1_spec-1.0.0.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.spec.javax.transaction.jboss-transaction-api_1.1_spec",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "2ab6236535e085d86f37fd97ddfdd35c88c1a419",
+    "jarFileModificationDate": "2012-10-31T18:28:26-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.javassist.javassist",
+    "version": {
+      "major": 3,
+      "minor": 15,
+      "micro": 0,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "79907309ca4bb4e5e51d4086cc4179b2611358d7",
+    "jarFileModificationDate": "2012-10-31T18:27:44-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/javassist-3.15.0-GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-infinispan-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c4be0ab8adf7d9cfff7507a3b640d1ecf9330c4f",
+    "jarFileModificationDate": "2013-02-20T18:37:42-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "net.sf.ehcache.ehcache-core",
+    "version": {
+      "major": 2,
+      "minor": 4,
+      "micro": 3,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "fd258ef6959f27fb678b04f90139ded4588e2d15",
+    "jarFileModificationDate": "2012-11-01T02:05:40-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ehcache-core-2.4.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-envers-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "59592084046b4c23a4d4c4bcff35cb087a59e6e6",
+    "jarFileModificationDate": "2013-02-20T18:37:40-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-envers-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "commons-dbcp",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "40c6c108c8843080cfb370e7a24a9401bab76e8b",
+    "jarFileModificationDate": "2012-07-09T07:01:33-03:00",
+    "location": "/usr/share/tomcat7/lib/commons-dbcp.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "junit",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "365907cf1e488e967f1d3e923d0111b36d930ee6",
+    "jarFileModificationDate": "2012-05-26T07:46:30-03:00",
+    "location": "/home/thiago/ufal/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "slf4j.api",
+    "version": {
+      "major": 1,
+      "minor": 6,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6f3b8a24bf970f17289b234284c94f43eb42f0e4",
+    "jarFileModificationDate": "2012-10-31T18:27:56-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "proxool-0.8.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e6867ba5b64e9fa4ed8c33fc89887105e90d003b",
+    "jarFileModificationDate": "2012-11-01T02:05:56-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/proxool-0.8.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.infinispan.core",
+    "version": {
+      "major": 5,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "Beta3"
+    },
+    "jarFileFingerprint": "b4655ff30bee7413598b64b62105736b94d7ec34",
+    "jarFileModificationDate": "2012-11-01T02:05:50-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/infinispan-core-5.2.0.Beta3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jgroups",
+    "version": {
+      "major": 3,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "CR1"
+    },
+    "jarFileFingerprint": "c389a54515d1dda9a3bf0403db2b59c0d9f890b2",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jgroups-3.2.0.CR1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-ehcache-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b0f3796b038cedb23f51685831218e7ef8285c42",
+    "jarFileModificationDate": "2013-02-20T18:37:36-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-ehcache-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "c3p0-0.9.1",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0759f6c11f515ee799814c43e4a50281220014ca",
+    "jarFileModificationDate": "2012-11-01T02:05:36-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/c3p0-0.9.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "dfa192e713294a8275787cd69cd87038dc5fece3",
+    "jarFileModificationDate": "2012-10-24T15:15:11-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "mysql-connector-java-5.1.7-bin",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ca83aa9a585691b04ce3bef79b3f050e2cc6fec8",
+    "jarFileModificationDate": "2008-10-21T04:02:24-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.marshalling.jboss-marshalling-river",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 15,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "e7420e77fb82de7044378634416c9e7e6f5d17f0",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-river-1.3.15.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.javassist.javassist",
+    "version": {
+      "major": 3,
+      "minor": 15,
+      "micro": 0,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "79907309ca4bb4e5e51d4086cc4179b2611358d7",
+    "jarFileModificationDate": "2012-10-31T18:27:44-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/javassist-3.15.0-GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.hamcrest.core",
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": "v20090501071000"
+    },
+    "jarFileFingerprint": "254c9660266e1177c94b1a9ba05f6f757e7fb85a",
+    "jarFileModificationDate": "2012-09-20T06:16:09-03:00",
+    "location": "/home/thiago/ufal/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "javax.el",
+    "version": {
+      "major": 2,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6ed7acd724de587cbca80504c441e06ef45c8876",
+    "jarFileModificationDate": "2013-01-10T13:28:41-03:00",
+    "location": "/usr/share/tomcat7/lib/el-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.jasper",
+    "version": {
+      "major": 7,
+      "minor": 0,
+      "micro": 26,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bc4503c776754b101e3eb614df013f535e11aff6",
+    "jarFileModificationDate": "2013-01-10T13:28:40-03:00",
+    "location": "/usr/share/tomcat7/lib/jasper.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.rhq.helpers.rhq-pluginAnnotations",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 4,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7a8f94fa824189f8bcf977c105607727c20b0595",
+    "jarFileModificationDate": "2012-11-01T02:05:50-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/rhq-pluginAnnotations-3.0.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.tomcat.jdbc",
+    "version": {
+      "major": 7,
+      "minor": 0,
+      "micro": 30,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "33f6575bc1d9f98c4a926d9b5695847a6303db6d",
+    "jarFileModificationDate": "2013-01-10T13:28:33-03:00",
+    "location": "/usr/share/tomcat7/lib/tomcat-dbcp.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.logging.jboss-logging",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 1,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "7fb1a7eb7ff1d15cac1802510fee65c7ca31a869",
+    "jarFileModificationDate": "2012-11-01T02:05:50-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.1.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.el",
+    "version": {
+      "major": 7,
+      "minor": 0,
+      "micro": 26,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "35e62a45220f5120640d6906c49f07c0d3e52e3b",
+    "jarFileModificationDate": "2013-01-10T13:28:40-03:00",
+    "location": "/usr/share/tomcat7/lib/jasper-el.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "log4j",
+    "version": {
+      "major": 1,
+      "minor": 2,
+      "micro": 17,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4f90475694c41965c9a0c8bac53ea5c690dea446",
+    "jarFileModificationDate": "2012-05-06T08:01:46-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/log4j-1.2.17.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "ant-1.6.5",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7d18faf23df1a5c3a43613952e0e8a182664564b",
+    "jarFileModificationDate": "2006-05-05T23:55:38-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ant-1.6.5.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.logging.jboss-logging",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "c71f2856e7b60efe485db39b37a31811e6c84365",
+    "jarFileModificationDate": "2012-10-31T18:28:26-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/jboss-logging-3.1.0.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "woodstox-core-asl",
+    "version": {
+      "major": 4,
+      "minor": 1,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1fc79e0ddf0c72408ddbbc7e558f46a15d7ba84f",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/woodstox-core-asl-4.1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.marshalling.jboss-marshalling-river",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 15,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "e7420e77fb82de7044378634416c9e7e6f5d17f0",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/jboss-marshalling-river-1.3.15.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f408789db0b17e242309ed097f145169287c7ce0",
+    "jarFileModificationDate": "2012-10-24T15:15:11-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "slf4j.api",
+    "version": {
+      "major": 1,
+      "minor": 6,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6f3b8a24bf970f17289b234284c94f43eb42f0e4",
+    "jarFileModificationDate": "2012-10-31T18:27:56-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/slf4j-api-1.6.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "woodstox-core-asl",
+    "version": {
+      "major": 4,
+      "minor": 1,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1fc79e0ddf0c72408ddbbc7e558f46a15d7ba84f",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/woodstox-core-asl-4.1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-c3p0-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0b0fc6c71160399a2f829f537331e3d10ce05fcc",
+    "jarFileModificationDate": "2013-02-20T18:37:32-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-c3p0-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f317c1b846ab01a1c00d849881778a47a7e728bf",
+    "jarFileModificationDate": "2012-09-20T06:21:42-03:00",
+    "location": "/usr/share/java/java-atk-wrapper.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "hibernate-infinispan-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "c4be0ab8adf7d9cfff7507a3b640d1ecf9330c4f",
+    "jarFileModificationDate": "2013-02-20T18:37:42-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-infinispan-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-envers-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "59592084046b4c23a4d4c4bcff35cb087a59e6e6",
+    "jarFileModificationDate": "2013-02-20T18:37:40-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-envers-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-infinispan-4.1.10.Final-tests",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9b3e3a175bd605721772b04b9c802cdee44f7321",
+    "jarFileModificationDate": "2013-02-20T18:37:44-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-infinispan-4.1.10.Final-tests.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-i18n-ja",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5f8dfef65f4b74d466b1af8726af8590b7913005",
+    "jarFileModificationDate": "2013-01-10T13:10:36-03:00",
+    "location": "/usr/share/tomcat7/lib/tomcat-i18n-ja.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-tribes",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4a18efe4d645b8d250a63c0048ed2984fdb30213",
+    "jarFileModificationDate": "2013-01-10T13:28:28-03:00",
+    "location": "/usr/share/tomcat7/lib/catalina-tribes.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "javax.servlet",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": "v201103241327"
+    },
+    "jarFileFingerprint": "11b47ba482a995e975e9c6d996ced0272341d218",
+    "jarFileModificationDate": "2013-01-10T13:28:41-03:00",
+    "location": "/usr/share/tomcat7/lib/servlet-api.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-proxool-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "db65bbeaed608900473353635a4e682027f87b23",
+    "jarFileModificationDate": "2013-02-20T18:37:44-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-proxool-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d81936e4bba66e94a7dbfd3c52ea11760b04b6a8",
+    "jarFileModificationDate": "2012-10-24T15:08:00-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "hibernate-infinispan-4.1.10.Final-tests",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9b3e3a175bd605721772b04b9c802cdee44f7321",
+    "jarFileModificationDate": "2013-02-20T18:37:44-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final-tests.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "mysql-connector-java-5.1.7-bin",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "ca83aa9a585691b04ce3bef79b3f050e2cc6fec8",
+    "jarFileModificationDate": "2008-10-21T04:02:24-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/mysql-connector-java-5.1.7-bin.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.hibernate.javax.persistence.hibernate-jpa-2.0-api",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "3306a165afa81938fc3d8a0948e891de9f6b192b",
+    "jarFileModificationDate": "2012-10-31T18:28:26-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-jpa-2.0-api-1.0.1.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.logging.jboss-logging",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 1,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "7fb1a7eb7ff1d15cac1802510fee65c7ca31a869",
+    "jarFileModificationDate": "2012-11-01T02:05:50-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/jboss-logging-3.1.1.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.hibernate.common.hibernate-commons-annotations",
+    "version": {
+      "major": 4,
+      "minor": 0,
+      "micro": 1,
+      "qualifier": "Final"
+    },
+    "jarFileFingerprint": "78bcf608d997d0529be2f4f781fdc89e801c9e88",
+    "jarFileModificationDate": "2012-10-31T18:28:26-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.rhq.helpers.rhq-pluginAnnotations",
+    "version": {
+      "major": 3,
+      "minor": 0,
+      "micro": 4,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "7a8f94fa824189f8bcf977c105607727c20b0595",
+    "jarFileModificationDate": "2012-11-01T02:05:50-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/rhq-pluginAnnotations-3.0.4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "tomcat-coyote",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "358fc24f559e89bf26abe80295d98ed3402784b9",
+    "jarFileModificationDate": "2013-01-10T13:28:30-03:00",
+    "location": "/usr/share/tomcat7/lib/tomcat-coyote.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.apache.tomcat.util",
+    "version": {
+      "major": 7,
+      "minor": 0,
+      "micro": 26,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "08b7ab3f0167d31bd5a00c39723361d167339734",
+    "jarFileModificationDate": "2013-01-10T13:28:40-03:00",
+    "location": "/usr/share/tomcat7/lib/tomcat-util.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "commons-pool",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "14b2314f734ee763ad396bbd78fcea35cac1d7a9",
+    "jarFileModificationDate": "2012-05-18T08:29:42-03:00",
+    "location": "/usr/share/tomcat7/lib/commons-pool.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jboss.marshalling.jboss-marshalling",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 15,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "655409440ac9cdd5a8c520caafb512a5f19ae1ae",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-1.3.15.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "proxool-0.8.3",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e6867ba5b64e9fa4ed8c33fc89887105e90d003b",
+    "jarFileModificationDate": "2012-11-01T02:05:56-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/proxool-0.8.3.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "68002ed1b1bc02c8ed42b34d1679385d6b18a03c",
+    "jarFileModificationDate": "2012-10-24T14:58:12-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/pulse-java.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "10fbdb28a16579d53652adcc4b5ffac6cb207902",
+    "jarFileModificationDate": "2012-10-24T15:08:07-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.jboss.logging.jboss-logging",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 0,
+      "qualifier": "GA"
+    },
+    "jarFileFingerprint": "c71f2856e7b60efe485db39b37a31811e6c84365",
+    "jarFileModificationDate": "2012-10-31T18:28:26-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.0.GA.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-entitymanager-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f069607c5a4fa4313205a6d1fb76f70e3524e322",
+    "jarFileModificationDate": "2013-02-20T18:37:38-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-entitymanager-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "org.jgroups",
+    "version": {
+      "major": 3,
+      "minor": 2,
+      "micro": 0,
+      "qualifier": "CR1"
+    },
+    "jarFileFingerprint": "c389a54515d1dda9a3bf0403db2b59c0d9f890b2",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/jgroups-3.2.0.CR1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "stax2-api",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0466eab062e9d1a3ce2c4631b6d09b5e5c0cbd1b",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/stax2-api-3.1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "catalina-ha",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "4b94c2fbaf92d2723ded20692b784d387a05173e",
+    "jarFileModificationDate": "2013-01-10T13:28:26-03:00",
+    "location": "/usr/share/tomcat7/lib/catalina-ha.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-core-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1600b79cffc60111a656e9ab045d31b077da82d1",
+    "jarFileModificationDate": "2013-02-20T18:37:32-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-core-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "hibernate-c3p0-4.1.10.Final",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0b0fc6c71160399a2f829f537331e3d10ce05fcc",
+    "jarFileModificationDate": "2013-02-20T18:37:32-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/Hibernate/libs/hibernate-c3p0-4.1.10.Final.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "68ac277f4ea7c900414286d053b0d7267d5b49a9",
+    "jarFileModificationDate": "2012-10-24T15:15:11-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "stax2-api",
+    "version": {
+      "major": 3,
+      "minor": 1,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0466eab062e9d1a3ce2c4631b6d09b5e5c0cbd1b",
+    "jarFileModificationDate": "2012-11-01T02:05:52-03:00",
+    "location": "/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/stax2-api-3.1.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "aa15006fc67a80f3619a3db3637875dccab048f9",
+    "jarFileModificationDate": "2012-10-24T15:09:11-03:00",
+    "location": "/usr/lib/jvm/java-7-openjdk-common/jre/lib/ext/sunpkcs11.jar",
+    "javaRuntime": true
+  }
+]

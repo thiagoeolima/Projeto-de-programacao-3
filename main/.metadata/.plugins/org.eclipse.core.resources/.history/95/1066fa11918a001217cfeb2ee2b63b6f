@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/gestao</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">12345678</property>
+    <property name="hibernate.hbm2ddl.auto">create-drop</property>
+    <mapping class="br.ufal.ic.model.Country"/>
+    <mapping class="br.ufal.ic.model.Departament"/>
+    <mapping class="br.ufal.ic.model.Employee"/>
+    <mapping class="br.ufal.ic.model.Job"/>
+    <mapping class="br.ufal.ic.model.JobHistory"/>
+    <mapping class="br.ufal.ic.model.Location"/>
+    <mapping class="br.ufal.ic.model.Region"/>
+  </session-factory>
+</hibernate-configuration>

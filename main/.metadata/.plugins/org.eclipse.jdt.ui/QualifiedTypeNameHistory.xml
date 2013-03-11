@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="br.ufal.ic.srm.model.User"/>
+<fullyQualifiedTypeName name="br.ufal.ic.srm.util.HibernateUtility"/>
+</qualifiedTypeNameHistroy>

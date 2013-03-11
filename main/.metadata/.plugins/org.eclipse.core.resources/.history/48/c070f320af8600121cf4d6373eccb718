@@ -1,0 +1,45 @@
+package br.ufal.ic.comp215.srm;
+
+public class User {
+
+	private final String name;
+	private final int idUser;
+	private final String login;
+	private final String password;
+	private final String email;
+	private final History history;
+	private final int userType;
+
+	/**
+	 * Product constructor
+	 * 
+	 * @param name
+	 *            The user's name.
+	 * @param idUser
+	 *            The user's id.
+	 * @param login
+	 *            The user's login.
+	 * @param password
+	 *            The user's password.
+	 * @param email
+	 *            The user's email.
+	 * @param history
+	 *            The resource's history of the user
+	 * @param userType
+	 *            The User type (Admin=0, Teacher=1, Researcher=2.
+	 * 
+	 */
+	
+	public User(String name, int idUser, String login, String password,
+			String email, History history, int userType) {
+		this.name = name;
+		this.idUser = idUser;
+		this.login = login;
+		this.password = password;
+		this.email = email;
+		this.history = history;
+		this.userType = userType;
+	}
+	
+
+}

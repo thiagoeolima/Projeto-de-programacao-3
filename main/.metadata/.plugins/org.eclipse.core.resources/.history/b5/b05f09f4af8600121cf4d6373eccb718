@@ -1,0 +1,12 @@
+package br.ufal.ic.comp215.srm;
+
+public class Activities {
+
+	private String title;
+	private String description;
+	private User responsible;
+	private int membersNumber;
+	private String supportStuff;
+	private int activitiesType;
+	
+}

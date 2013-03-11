@@ -1,0 +1,176 @@
+package br.ufal.ic.test;
+
+import static org.junit.Assert.*;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+import javax.print.attribute.standard.MediaSize.JIS;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import br.ufal.ic.HibernateUtility;
+import br.ufal.ic.model.*;
+
+public class CresteTest {
+	private Session sessao;
+	private Transaction transaction;
+
+	@Before
+	public void setUp() throws Exception {
+
+		sessao = HibernateUtility.getSession();
+		transaction = sessao.beginTransaction();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		sessao.close();
+	}
+
+	@Test
+	public void createRegionTest() {
+		Region reg = new Region();
+		reg.setName("reg");
+		sessao.save(reg);
+		transaction.commit();
+
+		Region r = (Region) sessao.get(Region.class, new Integer(1));
+		assertEquals(reg, r);
+
+	}
+
+	@Test
+	public void createJobs() {
+		Job job = new Job();
+		job.setId("SEC");
+		job.setTitle("Secretária");
+		job.setMaxSalary(1200.00);
+		job.setMinSalary(800.00);
+
+		sessao.save(job);
+		transaction.commit();
+
+		Job j = (Job) sessao.get(Job.class, "SEC");
+		assertEquals(job, j);
+
+	}
+
+	@Test
+	public void createCountryTest() {
+		Country country = new Country();
+
+		country.setCountry_name("Brasil");
+		country.setId("BR");
+
+		Region r = (Region) sessao.get(Region.class, new Integer(1));
+
+		country.setRegion(r);
+		sessao.save(country);
+		transaction.commit();
+
+		Country c = (Country) sessao.get(Country.class, "BR");
+		assertEquals(country, c);
+		assertEquals(r, c.getRegion());
+	}
+
+	@Test
+	public void createLocationTest() {
+		Location location = new Location();
+		location.setAddress("Residencial Santa Rita");
+		location.setCity("União dos Palmares");
+		location.setPostalCode("75800000");
+
+		Country c = (Country) sessao.get(Country.class, "BR");
+		location.setCountry(c);
+
+		sessao.save(location);
+		transaction.commit();
+
+		Location l = (Location) sessao.get(Location.class, new Integer(1));
+
+		assertEquals(location, l);
+		assertEquals(c, l.getCountry());
+
+	}
+
+	@Test
+	public void createDepartamentTest() {
+		Departament departament = new Departament();
+		departament.setName("Secretaria de Educação");
+
+		Location l = (Location) sessao.get(Location.class, new Integer(1));
+		departament.setLocation(l);
+
+		sessao.save(departament);
+		transaction.commit();
+
+		Departament d = (Departament) sessao.get(Departament.class,
+				new Integer(1));
+		assertEquals(departament, d);
+		assertEquals(l, d.getLocation());
+
+	}
+
+	@Test
+	public void createEmployeeTest() throws ParseException {
+		Employee employee = new Employee();
+		Employee manager = new Employee();
+		Departament d = (Departament) sessao.get(Departament.class,
+				new Integer(1));
+		Job j = (Job) sessao.get(Job.class, "SEC");
+
+		manager.setFirstName("Leonaira");
+		manager.setLastName("Melo");
+		manager.setEmail("leonaira-morgana@hotmail.com");
+		manager.setHireDate((new SimpleDateFormat("dd-mm-yyyy")
+				.parse("10-01-2010")));
+		manager.setDepartament(d);
+
+		manager.setJob(j);
+
+		employee.setFirstName("Armando");
+		employee.setLastName("Barbosa");
+		employee.setHireDate((new SimpleDateFormat("dd-mm-yyyy")
+				.parse("10-01-2013")));
+		employee.setManager(manager);
+		employee.setEmail("armandobs14@gmail.com");
+		employee.setDepartament(d);
+		employee.setJob(j);
+
+		d.setManager(manager);
+
+		sessao.save(employee);
+		transaction.commit();
+
+	}
+	@Test
+	public void createHistoricTest() throws ParseException {
+		JobHistory history= new JobHistory();
+		JobHistoryPK historyPK = new JobHistoryPK();
+		Job job = (Job) sessao.get(Job.class, "SEC");
+		Employee employee = (Employee) sessao.get(Employee.class,new Integer(1));
+		Departament departament = (Departament) sessao.get(Departament.class, new Integer(1));
+		
+		
+		
+		
+		historyPK.setEmployee(employee);
+		historyPK.setStart_date((new SimpleDateFormat("dd-mm-yyyy").parse("10-01-2010")));
+		history.setId(historyPK);
+		
+		history.setEndDate((new SimpleDateFormat("dd-mm-yyyy").parse("10-10-2013")));
+		history.setJob(job);
+		history.setDepartament(departament);
+		
+		sessao.save(history);
+		transaction.commit();
+		
+		JobHistory h= (JobHistory) sessao.get(JobHistory.class,historyPK);
+		assertEquals(history, h);
+		
+	}
+}

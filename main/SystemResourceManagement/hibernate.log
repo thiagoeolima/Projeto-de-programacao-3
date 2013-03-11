@@ -1,0 +1,572 @@
+17:58:17,820  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+17:58:17,838  INFO Version:41 - HHH000412: Hibernate Core {4.1.10.Final}
+17:58:17,844  INFO Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.driver_class=org.h2.Driver, hibernate.dialect=org.hibernate.dialect.H2Dialect, hibernate.max_fetch_depth=5, hibernate.format_sql=true, hibernate.generate_statistics=true, hibernate.connection.username=sa, hibernate.connection.url=jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1;MVCC=TRUE, hibernate.bytecode.use_reflection_optimizer=false, hibernate.jdbc.batch_versioned_data=true, hibernate.connection.pool_size=5}
+17:58:17,845  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+17:58:17,881 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+17:58:17,883 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+17:58:17,884 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+17:58:17,885 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+17:58:17,904 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+17:58:17,914 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+17:58:17,930 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+17:58:17,931 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+17:58:17,935 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+17:58:17,938 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+17:58:17,940 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+17:58:17,942 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+17:58:17,948 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+17:58:17,949 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+17:58:17,951 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+17:58:17,955  INFO Configuration:1926 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+17:58:17,956  INFO Configuration:1945 - HHH000040: Configuration resource: /hibernate.cfg.xml
+17:58:18,176 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+17:58:18,177  WARN DTDEntityResolver:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+17:58:18,178 DEBUG DTDEntityResolver:75 - Attempting to resolve on classpath under org/hibernate/
+17:58:18,179 DEBUG DTDEntityResolver:107 - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+17:58:18,217 DEBUG Configuration:1888 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+17:58:18,218 DEBUG Configuration:1888 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+17:58:18,218 DEBUG Configuration:1888 - hibernate.connection.url=jdbc:mysql://localhost:3306/gestao
+17:58:18,219 DEBUG Configuration:1888 - hibernate.connection.username=root
+17:58:18,220 DEBUG Configuration:1888 - hibernate.connection.password=12345678
+17:58:18,220 DEBUG Configuration:1888 - hibernate.hbm2ddl.auto=create-drop
+17:58:18,221 DEBUG Configuration:2127 - Session-factory config [null] named class [br.ufal.ic.model.Country] for mapping
+18:16:37,960  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+18:16:38,102  INFO Version:41 - HHH000412: Hibernate Core {4.1.10.Final}
+18:16:38,192  INFO Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.driver_class=org.h2.Driver, hibernate.dialect=org.hibernate.dialect.H2Dialect, hibernate.max_fetch_depth=5, hibernate.format_sql=true, hibernate.generate_statistics=true, hibernate.connection.username=sa, hibernate.connection.url=jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1;MVCC=TRUE, hibernate.bytecode.use_reflection_optimizer=false, hibernate.jdbc.batch_versioned_data=true, hibernate.connection.pool_size=5}
+18:16:38,194  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+18:16:38,382 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+18:16:38,383 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+18:16:38,385 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+18:16:38,386 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+18:16:38,389 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+18:16:38,391 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+18:16:38,394 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+18:16:38,396 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+18:16:38,397 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+18:16:38,398 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+18:16:38,400 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+18:16:38,402 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+18:16:38,408 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+18:16:38,410 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+18:16:38,411 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+18:16:38,416  INFO Configuration:1926 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+18:16:38,416  INFO Configuration:1945 - HHH000040: Configuration resource: /hibernate.cfg.xml
+18:16:38,756 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+18:16:38,771  WARN DTDEntityResolver:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+18:16:38,772 DEBUG DTDEntityResolver:75 - Attempting to resolve on classpath under org/hibernate/
+18:16:38,773 DEBUG DTDEntityResolver:107 - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+18:16:38,868 DEBUG Configuration:1888 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+18:16:38,869 DEBUG Configuration:1888 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+18:16:38,870 DEBUG Configuration:1888 - hibernate.connection.url=jdbc:mysql://localhost:3306/gestao
+18:16:38,870 DEBUG Configuration:1888 - hibernate.connection.username=root
+18:16:38,871 DEBUG Configuration:1888 - hibernate.connection.password=12345678
+18:16:38,871 DEBUG Configuration:1888 - hibernate.hbm2ddl.auto=create-drop
+18:16:38,872 DEBUG Configuration:2127 - Session-factory config [null] named class [br.ufal.ic.model.Country] for mapping
+18:17:44,478  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+18:17:44,497  INFO Version:41 - HHH000412: Hibernate Core {4.1.10.Final}
+18:17:44,503  INFO Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.driver_class=org.h2.Driver, hibernate.dialect=org.hibernate.dialect.H2Dialect, hibernate.max_fetch_depth=5, hibernate.format_sql=true, hibernate.generate_statistics=true, hibernate.connection.username=sa, hibernate.connection.url=jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1;MVCC=TRUE, hibernate.bytecode.use_reflection_optimizer=false, hibernate.jdbc.batch_versioned_data=true, hibernate.connection.pool_size=5}
+18:17:44,505  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+18:17:44,553 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+18:17:44,559 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+18:17:44,564 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+18:17:44,565 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+18:17:44,567 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+18:17:44,569 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+18:17:44,571 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+18:17:44,573 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+18:17:44,574 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+18:17:44,576 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+18:17:44,577 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+18:17:44,579 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+18:17:44,586 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+18:17:44,588 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+18:17:44,590 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+18:17:44,594  INFO Configuration:1926 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+18:17:44,594  INFO Configuration:1945 - HHH000040: Configuration resource: /hibernate.cfg.xml
+18:17:44,734 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+18:17:44,738  WARN DTDEntityResolver:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+18:17:44,738 DEBUG DTDEntityResolver:75 - Attempting to resolve on classpath under org/hibernate/
+18:17:44,739 DEBUG DTDEntityResolver:107 - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+18:17:44,776 DEBUG Configuration:1888 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+18:17:44,776 DEBUG Configuration:1888 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+18:17:44,777 DEBUG Configuration:1888 - hibernate.connection.url=jdbc:mysql://localhost:3306/gestao
+18:17:44,777 DEBUG Configuration:1888 - hibernate.connection.username=root
+18:17:44,778 DEBUG Configuration:1888 - hibernate.connection.password=12345678
+18:17:44,779 DEBUG Configuration:1888 - hibernate.hbm2ddl.auto=create-drop
+18:17:44,779 DEBUG Configuration:2127 - Session-factory config [null] named class [br.ufal.ic.srm.model.User] for mapping
+18:17:44,800  INFO Configuration:2067 - HHH000041: Configured SessionFactory: null
+18:17:44,805 DEBUG Configuration:2068 - Properties: {hibernate.connection.password=12345678, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386, java.vm.version=23.2-b09, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement, java.runtime.version=1.7.0_09-b30, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, hibernate.jdbc.batch_versioned_data=true, sun.jnu.encoding=UTF-8, java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=51.0, hibernate.connection.pool_size=5, sun.management.compiler=HotSpot Client Compiler, os.version=3.5.0-21-generic, user.home=/home/thiago, user.timezone=America/Maceio, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.format_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.class.path=/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/build/classes:/usr/share/tomcat7/lib/catalina-ant.jar:/usr/share/tomcat7/lib/tomcat-coyote.jar:/usr/share/tomcat7/lib/catalina-tribes.jar:/usr/share/tomcat7/lib/commons-pool.jar:/usr/share/tomcat7/lib/jasper.jar:/usr/share/tomcat7/lib/annotations-api.jar:/usr/share/tomcat7/lib/jsp-api.jar:/usr/share/tomcat7/lib/tomcat-i18n-fr.jar:/usr/share/tomcat7/lib/catalina.jar:/usr/share/tomcat7/lib/jasper-el.jar:/usr/share/tomcat7/lib/el-api.jar:/usr/share/tomcat7/lib/tomcat-api.jar:/usr/share/tomcat7/lib/commons-dbcp.jar:/usr/share/tomcat7/lib/servlet-api.jar:/usr/share/tomcat7/lib/tomcat-util.jar:/usr/share/tomcat7/lib/tomcat-i18n-es.jar:/usr/share/tomcat7/lib/tomcat-dbcp.jar:/usr/share/tomcat7/lib/catalina-ha.jar:/usr/share/tomcat7/lib/tomcat-i18n-ja.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ant-1.6.5.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/antlr-2.7.7.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/c3p0-0.9.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/dom4j-1.6.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ehcache-core-2.4.3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-c3p0-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-core-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-ehcache-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-entitymanager-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-envers-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final-tests.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-proxool-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/infinispan-core-5.2.0.Beta3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/javassist-3.15.0-GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.0.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.1.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-1.3.15.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-river-1.3.15.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jgroups-3.2.0.CR1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/log4j-1.2.17.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/proxool-0.8.3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/rhq-pluginAnnotations-3.0.4.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/stax2-api-3.1.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/staxmapper-1.1.0.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/woodstox-core-asl-4.1.1.jar:/home/thiago/ufal/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar:/home/thiago/ufal/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar:/home/thiago/ufal/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/:/home/thiago/ufal/eclipse/configuration/org.eclipse.osgi/bundles/541/1/.cp/, user.name=thiago, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.7, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 54077 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames br.ufal.ic.test.TestUser, java.home=/usr/lib/jvm/java-7-openjdk-i386/jre, sun.arch.data.model=32, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/gestao, user.language=pt, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, sharing, java.version=1.7.0_09, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes, java.vendor=Oracle Corporation, file.separator=/, hibernate.hbm2ddl.auto=create-drop, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, hibernate.max_fetch_depth=5, sun.desktop=gnome, sun.cpu.isalist=}
+18:17:44,849 DEBUG IntegratorServiceImpl:59 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+18:17:44,869 DEBUG IntegratorServiceImpl:59 - Adding Integrator [org.hibernate.envers.event.EnversIntegrator].
+18:17:44,976 DEBUG Configuration:1728 - Preparing to build session factory with filters : {}
+18:17:45,058 DEBUG Configuration:3409 - Processing hbm.xml files
+18:17:45,067 DEBUG Configuration:3439 - Process annotated classes
+18:17:45,092 DEBUG AnnotationBinder:531 - Binding entity from annotated class: br.ufal.ic.srm.model.User
+18:17:45,211 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+18:17:45,215 DEBUG AnnotationBinder:989 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+18:17:45,231 DEBUG EntityBinder:394 - Import with entity name User
+18:17:45,238 DEBUG EntityBinder:564 - Bind entity br.ufal.ic.srm.model.User on table user
+18:17:45,314 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+18:17:45,321 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+18:17:45,332 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+18:17:45,335 DEBUG PropertyBinder:260 - Building property id
+18:17:45,342 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
+18:17:45,343 DEBUG PropertyBinder:179 - MetadataSourceProcessor property email with lazy=false
+18:17:45,343 DEBUG SimpleValueBinder:331 - building SimpleValue for email
+18:17:45,344 DEBUG PropertyBinder:260 - Building property email
+18:17:45,345 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=name, insertable=true, updatable=true, unique=false}
+18:17:45,345 DEBUG PropertyBinder:179 - MetadataSourceProcessor property name with lazy=false
+18:17:45,346 DEBUG SimpleValueBinder:331 - building SimpleValue for name
+18:17:45,346 DEBUG PropertyBinder:260 - Building property name
+18:17:45,347 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=phone_number, insertable=true, updatable=true, unique=false}
+18:17:45,347 DEBUG PropertyBinder:179 - MetadataSourceProcessor property number with lazy=false
+18:17:45,347 DEBUG SimpleValueBinder:331 - building SimpleValue for number
+18:17:45,348 DEBUG PropertyBinder:260 - Building property number
+18:17:45,348 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+18:17:45,349 DEBUG PropertyBinder:179 - MetadataSourceProcessor property password with lazy=false
+18:17:45,349 DEBUG SimpleValueBinder:331 - building SimpleValue for password
+18:17:45,349 DEBUG PropertyBinder:260 - Building property password
+18:17:45,353 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for id
+18:17:45,354 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for email
+18:17:45,354 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for name
+18:17:45,354 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for number
+18:17:45,355 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for password
+18:17:45,364 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:17:45,368 DEBUG Configuration:1578 - Processing extends queue
+18:17:45,368 DEBUG Configuration:1636 - Processing extends queue
+18:17:45,368 DEBUG Configuration:1581 - Processing collection mappings
+18:17:45,369 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:17:45,369 DEBUG Configuration:1599 - Processing association property references
+18:17:45,369 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:17:45,369 DEBUG Configuration:1622 - Processing foreign key constraints
+18:17:45,461  INFO DriverManagerConnectionProviderImpl:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+18:17:45,509  INFO DriverManagerConnectionProviderImpl:130 - HHH000115: Hibernate connection pool size: 5
+18:17:45,510  INFO DriverManagerConnectionProviderImpl:133 - HHH000006: Autocommit mode: false
+18:17:45,511  INFO DriverManagerConnectionProviderImpl:147 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/gestao]
+18:17:45,511  INFO DriverManagerConnectionProviderImpl:150 - HHH000046: Connection properties: {user=root, password=12345678}
+18:17:45,593 DEBUG DriverManagerConnectionProviderImpl:192 - Opening new JDBC connection
+18:17:46,424 DEBUG DriverManagerConnectionProviderImpl:202 - Created connection to: jdbc:mysql://localhost:3306/gestao, Isolation Level: 4
+18:17:46,425 DEBUG JdbcServicesImpl:121 - Database ->
+       name : MySQL
+    version : 5.5.28-0ubuntu0.12.10.2
+      major : 5
+      minor : 5
+18:17:46,426 DEBUG JdbcServicesImpl:127 - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.7 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+18:17:46,426 DEBUG JdbcServicesImpl:133 - JDBC version : 3.0
+18:17:46,448  INFO Dialect:127 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:17:46,476  INFO LobCreatorBuilder:94 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+18:17:46,524 DEBUG SettingsFactory:113 - Automatic flush during beforeCompletion(): disabled
+18:17:46,535 DEBUG SettingsFactory:119 - Automatic session close at end of transaction: disabled
+18:17:46,538 DEBUG SettingsFactory:130 - JDBC batch size: 15
+18:17:46,539 DEBUG SettingsFactory:136 - JDBC batch updates for versioned data: enabled
+18:17:46,539 DEBUG SettingsFactory:146 - Scrollable result sets: enabled
+18:17:46,539 DEBUG SettingsFactory:152 - Wrap result sets: disabled
+18:17:46,540 DEBUG SettingsFactory:158 - JDBC3 getGeneratedKeys(): enabled
+18:17:46,540 DEBUG SettingsFactory:170 - multi-tenancy strategy : NONE
+18:17:46,541 DEBUG SettingsFactory:176 - Connection release mode: auto
+18:17:46,541  INFO TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+18:17:46,546 DEBUG SettingsFactory:212 - Maximum outer join fetch depth: 5
+18:17:46,547 DEBUG SettingsFactory:218 - Default batch fetch size: 1
+18:17:46,547 DEBUG SettingsFactory:224 - Generate SQL with comments: disabled
+18:17:46,547 DEBUG SettingsFactory:230 - Order SQL updates by primary key: disabled
+18:17:46,548 DEBUG SettingsFactory:236 - Order SQL inserts for batching: disabled
+18:17:46,548 DEBUG SettingsFactory:508 - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+18:17:46,552  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+18:17:46,553 DEBUG SettingsFactory:246 - Query language substitutions: {}
+18:17:46,553 DEBUG SettingsFactory:252 - JPA-QL strict compliance: disabled
+18:17:46,553 DEBUG SettingsFactory:260 - Second-level cache: enabled
+18:17:46,554 DEBUG SettingsFactory:266 - Query cache: disabled
+18:17:46,555 DEBUG SettingsFactory:448 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+18:17:46,557 DEBUG SettingsFactory:458 - org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+18:17:46,558 DEBUG SettingsFactory:281 - Optimize cache for minimal puts: disabled
+18:17:46,558 DEBUG SettingsFactory:296 - Structured second-level cache entries: disabled
+18:17:46,559 DEBUG SettingsFactory:305 - Statistics: enabled
+18:17:46,559 DEBUG SettingsFactory:311 - Deleted entity synthetic identifier rollback: disabled
+18:17:46,559 DEBUG SettingsFactory:335 - Default entity-mode: pojo
+18:17:46,560 DEBUG SettingsFactory:341 - Named query checking : enabled
+18:17:46,560 DEBUG SettingsFactory:347 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+18:17:46,560 DEBUG SettingsFactory:365 - Allow initialization of lazy state outside session : : disabled
+18:17:46,599 DEBUG SessionFactoryImpl:225 - Building session factory
+18:17:46,654 DEBUG SessionFactoryImpl:277 - Session factory constructed with filter configurations : {}
+18:17:46,654 DEBUG SessionFactoryImpl:278 - Instantiating session factory with properties: {java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.password=12345678, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386, java.vm.version=23.2-b09, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement, java.runtime.version=1.7.0_09-b30, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, hibernate.jdbc.batch_versioned_data=true, sun.jnu.encoding=UTF-8, java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=51.0, hibernate.connection.pool_size=5, sun.management.compiler=HotSpot Client Compiler, os.version=3.5.0-21-generic, user.home=/home/thiago, user.timezone=America/Maceio, java.awt.printerjob=sun.print.PSPrinterJob, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, user.name=thiago, java.class.path=/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/build/classes:/usr/share/tomcat7/lib/catalina-ant.jar:/usr/share/tomcat7/lib/tomcat-coyote.jar:/usr/share/tomcat7/lib/catalina-tribes.jar:/usr/share/tomcat7/lib/commons-pool.jar:/usr/share/tomcat7/lib/jasper.jar:/usr/share/tomcat7/lib/annotations-api.jar:/usr/share/tomcat7/lib/jsp-api.jar:/usr/share/tomcat7/lib/tomcat-i18n-fr.jar:/usr/share/tomcat7/lib/catalina.jar:/usr/share/tomcat7/lib/jasper-el.jar:/usr/share/tomcat7/lib/el-api.jar:/usr/share/tomcat7/lib/tomcat-api.jar:/usr/share/tomcat7/lib/commons-dbcp.jar:/usr/share/tomcat7/lib/servlet-api.jar:/usr/share/tomcat7/lib/tomcat-util.jar:/usr/share/tomcat7/lib/tomcat-i18n-es.jar:/usr/share/tomcat7/lib/tomcat-dbcp.jar:/usr/share/tomcat7/lib/catalina-ha.jar:/usr/share/tomcat7/lib/tomcat-i18n-ja.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ant-1.6.5.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/antlr-2.7.7.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/c3p0-0.9.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/dom4j-1.6.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ehcache-core-2.4.3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-c3p0-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-core-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-ehcache-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-entitymanager-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-envers-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final-tests.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-proxool-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/infinispan-core-5.2.0.Beta3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/javassist-3.15.0-GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.0.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.1.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-1.3.15.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-river-1.3.15.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jgroups-3.2.0.CR1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/log4j-1.2.17.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/proxool-0.8.3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/rhq-pluginAnnotations-3.0.4.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/stax2-api-3.1.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/staxmapper-1.1.0.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/woodstox-core-asl-4.1.1.jar:/home/thiago/ufal/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar:/home/thiago/ufal/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar:/home/thiago/ufal/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/:/home/thiago/ufal/eclipse/configuration/org.eclipse.osgi/bundles/541/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.7, sun.arch.data.model=32, java.home=/usr/lib/jvm/java-7-openjdk-i386/jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 54077 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames br.ufal.ic.test.TestUser, hibernate.connection.url=jdbc:mysql://localhost:3306/gestao, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=pt, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, sharing, java.version=1.7.0_09, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes, java.vendor=Oracle Corporation, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=create-drop, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, hibernate.max_fetch_depth=5, sun.cpu.isalist=}
+18:17:46,998 DEBUG Configuration:3409 - Processing hbm.xml files
+18:17:46,998 DEBUG Configuration:3439 - Process annotated classes
+18:17:46,999 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:17:46,999 DEBUG Configuration:1578 - Processing extends queue
+18:17:46,999 DEBUG Configuration:1636 - Processing extends queue
+18:17:46,999 DEBUG Configuration:1581 - Processing collection mappings
+18:17:47,007 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:17:47,009 DEBUG Configuration:1599 - Processing association property references
+18:17:47,010 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:17:47,011 DEBUG Configuration:1622 - Processing foreign key constraints
+18:17:47,012 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:17:47,321 DEBUG AbstractEntityPersister:3552 - Static SQL for entity: br.ufal.ic.srm.model.User
+18:17:47,324 DEBUG AbstractEntityPersister:3557 -  Version select: select id from user where id =?
+18:17:47,325 DEBUG AbstractEntityPersister:3560 -  Snapshot select: select user_.id, user_.email as email0_, user_.name as name0_, user_.phone_number as phone4_0_, user_.password as password0_ from user user_ where user_.id=?
+18:17:47,325 DEBUG AbstractEntityPersister:3563 -  Insert 0: insert into user (email, name, phone_number, password, id) values (?, ?, ?, ?, ?)
+18:17:47,325 DEBUG AbstractEntityPersister:3564 -  Update 0: update user set email=?, name=?, phone_number=?, password=? where id=?
+18:17:47,326 DEBUG AbstractEntityPersister:3565 -  Delete 0: delete from user where id=?
+18:17:47,326 DEBUG AbstractEntityPersister:3568 -  Identity insert: insert into user (email, name, phone_number, password) values (?, ?, ?, ?)
+18:17:47,375 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [NONE]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:17:47,376 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [READ]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:17:47,377 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [UPGRADE]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:17:47,378 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [UPGRADE_NOWAIT]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:17:47,378 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [FORCE]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:17:47,379 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [PESSIMISTIC_READ]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? lock in share mode
+18:17:47,379 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [PESSIMISTIC_WRITE]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:17:47,380 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [PESSIMISTIC_FORCE_INCREMENT]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:17:47,381 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [OPTIMISTIC]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:17:47,383 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [OPTIMISTIC_FORCE_INCREMENT]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:17:47,395 DEBUG Loader:56 - Static select for action ACTION_MERGE on entity br.ufal.ic.srm.model.User: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:17:47,396 DEBUG Loader:56 - Static select for action ACTION_REFRESH on entity br.ufal.ic.srm.model.User: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:17:47,439 DEBUG SessionFactoryRegistry:62 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@dec7eb
+18:17:47,456 DEBUG SessionFactoryRegistry:75 - Registering SessionFactory: c669bfcc-7bff-44b0-ae45-2a44b81c9d7b (<unnamed>)
+18:17:47,457 DEBUG SessionFactoryRegistry:82 - Not binding SessionFactory to JNDI, no JNDI name configured
+18:17:47,457 DEBUG SessionFactoryImpl:486 - Instantiated session factory
+18:17:47,471 DEBUG Configuration:3409 - Processing hbm.xml files
+18:17:47,471 DEBUG Configuration:3439 - Process annotated classes
+18:17:47,472 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:17:47,472 DEBUG Configuration:1578 - Processing extends queue
+18:17:47,473 DEBUG Configuration:1636 - Processing extends queue
+18:17:47,473 DEBUG Configuration:1581 - Processing collection mappings
+18:17:47,473 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:17:47,473 DEBUG Configuration:1599 - Processing association property references
+18:17:47,474 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:17:47,474 DEBUG Configuration:1622 - Processing foreign key constraints
+18:17:47,475 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:17:47,476 DEBUG Configuration:3409 - Processing hbm.xml files
+18:17:47,476 DEBUG Configuration:3439 - Process annotated classes
+18:17:47,477 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:17:47,477 DEBUG Configuration:1578 - Processing extends queue
+18:17:47,477 DEBUG Configuration:1636 - Processing extends queue
+18:17:47,477 DEBUG Configuration:1581 - Processing collection mappings
+18:17:47,478 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:17:47,478 DEBUG Configuration:1599 - Processing association property references
+18:17:47,478 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:17:47,478 DEBUG Configuration:1622 - Processing foreign key constraints
+18:17:47,479 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:17:47,479 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:17:47,481  INFO SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+18:17:47,483 DEBUG SchemaExport:353 - Import file not found: /import.sql
+18:17:47,486 DEBUG SQL:104 - 
+    drop table if exists user
+18:17:47,613 DEBUG SQL:104 - 
+    create table user (
+        id integer not null auto_increment,
+        email varchar(45),
+        name varchar(40) not null,
+        phone_number varchar(20),
+        password varchar(100) not null,
+        primary key (id)
+    )
+18:17:47,859  INFO SchemaExport:405 - HHH000230: Schema export complete
+18:17:47,860 DEBUG Configuration:3409 - Processing hbm.xml files
+18:17:47,860 DEBUG Configuration:3439 - Process annotated classes
+18:17:47,861 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:17:47,861 DEBUG Configuration:1578 - Processing extends queue
+18:17:47,861 DEBUG Configuration:1636 - Processing extends queue
+18:17:47,861 DEBUG Configuration:1581 - Processing collection mappings
+18:17:47,862 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:17:47,862 DEBUG Configuration:1599 - Processing association property references
+18:17:47,862 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:17:47,862 DEBUG Configuration:1622 - Processing foreign key constraints
+18:17:47,863 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:17:47,864 DEBUG Configuration:3409 - Processing hbm.xml files
+18:17:47,864 DEBUG Configuration:3439 - Process annotated classes
+18:17:47,864 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:17:47,864 DEBUG Configuration:1578 - Processing extends queue
+18:17:47,865 DEBUG Configuration:1636 - Processing extends queue
+18:17:47,865 DEBUG Configuration:1581 - Processing collection mappings
+18:17:47,866 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:17:47,866 DEBUG Configuration:1599 - Processing association property references
+18:17:47,866 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:17:47,866 DEBUG Configuration:1622 - Processing foreign key constraints
+18:17:47,867 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:17:47,867 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:17:47,868 DEBUG SessionFactoryImpl:1058 - Checking 0 named HQL queries
+18:17:47,868 DEBUG SessionFactoryImpl:1081 - Checking 0 named SQL queries
+18:17:47,897 DEBUG StatisticsInitiator:110 - Statistics initialized [enabled=true]
+18:17:48,007 DEBUG AbstractTransactionImpl:158 - begin
+18:17:48,011 DEBUG LogicalConnectionImpl:295 - Obtaining JDBC connection
+18:17:48,013 DEBUG LogicalConnectionImpl:301 - Obtained JDBC connection
+18:17:48,013 DEBUG JdbcTransaction:69 - initial autocommit status: false
+18:17:48,032 DEBUG ActionQueue:202 - Executing identity-insert immediately
+18:17:48,111 DEBUG SQL:104 - 
+    insert 
+    into
+        user
+        (email, name, phone_number, password) 
+    values
+        (?, ?, ?, ?)
+18:17:48,240 DEBUG IdentifierGeneratorHelper:93 - Natively generated identity: 1
+18:17:48,257 DEBUG AbstractTransactionImpl:173 - committing
+18:17:48,259 DEBUG AbstractFlushingEventListener:143 - Processing flush-time cascades
+18:17:48,260 DEBUG AbstractFlushingEventListener:183 - Dirty checking collections
+18:17:48,264 DEBUG AbstractFlushingEventListener:117 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+18:17:48,265 DEBUG AbstractFlushingEventListener:124 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+18:17:48,267 DEBUG EntityPrinter:114 - Listing entities:
+18:17:48,268 DEBUG EntityPrinter:121 - br.ufal.ic.srm.model.User{id=1, email=null, name=Thiago, number=8809-2604, password=complicada007}
+18:17:48,313 DEBUG JdbcTransaction:113 - committed JDBC Connection
+18:17:48,319 DEBUG LogicalConnectionImpl:314 - Releasing JDBC connection
+18:17:48,320 DEBUG LogicalConnectionImpl:332 - Released JDBC connection
+18:17:48,320 DEBUG ConnectionProxyHandler:219 - HHH000163: Logical connection releasing its physical connection
+18:20:52,537  INFO Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+18:20:52,554  INFO Version:41 - HHH000412: Hibernate Core {4.1.10.Final}
+18:20:52,559  INFO Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.connection.driver_class=org.h2.Driver, hibernate.dialect=org.hibernate.dialect.H2Dialect, hibernate.max_fetch_depth=5, hibernate.format_sql=true, hibernate.generate_statistics=true, hibernate.connection.username=sa, hibernate.connection.url=jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1;MVCC=TRUE, hibernate.bytecode.use_reflection_optimizer=false, hibernate.jdbc.batch_versioned_data=true, hibernate.connection.pool_size=5}
+18:20:52,561  INFO Environment:342 - HHH000021: Bytecode provider name : javassist
+18:20:52,609 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+18:20:52,611 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+18:20:52,612 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+18:20:52,613 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+18:20:52,615 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+18:20:52,617 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+18:20:52,619 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+18:20:52,621 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+18:20:52,623 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+18:20:52,624 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+18:20:52,625 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+18:20:52,627 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+18:20:52,634 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+18:20:52,635 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+18:20:52,637 DEBUG DefaultIdentifierGeneratorFactory:93 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+18:20:52,641  INFO Configuration:1926 - HHH000043: Configuring from resource: /hibernate.cfg.xml
+18:20:52,641  INFO Configuration:1945 - HHH000040: Configuration resource: /hibernate.cfg.xml
+18:20:52,840 DEBUG DTDEntityResolver:68 - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+18:20:52,842  WARN DTDEntityResolver:74 - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+18:20:52,842 DEBUG DTDEntityResolver:75 - Attempting to resolve on classpath under org/hibernate/
+18:20:52,843 DEBUG DTDEntityResolver:107 - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+18:20:52,879 DEBUG Configuration:1888 - hibernate.dialect=org.hibernate.dialect.MySQLDialect
+18:20:52,880 DEBUG Configuration:1888 - hibernate.connection.driver_class=com.mysql.jdbc.Driver
+18:20:52,880 DEBUG Configuration:1888 - hibernate.connection.url=jdbc:mysql://localhost:3306/gestao
+18:20:52,881 DEBUG Configuration:1888 - hibernate.connection.username=root
+18:20:52,882 DEBUG Configuration:1888 - hibernate.connection.password=12345678
+18:20:52,882 DEBUG Configuration:1888 - hibernate.hbm2ddl.auto=create-drop
+18:20:52,883 DEBUG Configuration:2127 - Session-factory config [null] named class [br.ufal.ic.srm.model.User] for mapping
+18:20:52,912  INFO Configuration:2067 - HHH000041: Configured SessionFactory: null
+18:20:52,914 DEBUG Configuration:2068 - Properties: {hibernate.connection.password=12345678, java.runtime.name=OpenJDK Runtime Environment, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386, java.vm.version=23.2-b09, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement, java.runtime.version=1.7.0_09-b30, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, hibernate.jdbc.batch_versioned_data=true, sun.jnu.encoding=UTF-8, java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=51.0, hibernate.connection.pool_size=5, sun.management.compiler=HotSpot Client Compiler, os.version=3.5.0-21-generic, user.home=/home/thiago, user.timezone=America/Maceio, java.awt.printerjob=sun.print.PSPrinterJob, file.encoding=UTF-8, java.specification.version=1.7, hibernate.format_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.class.path=/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/build/classes:/usr/share/tomcat7/lib/catalina-ant.jar:/usr/share/tomcat7/lib/tomcat-coyote.jar:/usr/share/tomcat7/lib/catalina-tribes.jar:/usr/share/tomcat7/lib/commons-pool.jar:/usr/share/tomcat7/lib/jasper.jar:/usr/share/tomcat7/lib/annotations-api.jar:/usr/share/tomcat7/lib/jsp-api.jar:/usr/share/tomcat7/lib/tomcat-i18n-fr.jar:/usr/share/tomcat7/lib/catalina.jar:/usr/share/tomcat7/lib/jasper-el.jar:/usr/share/tomcat7/lib/el-api.jar:/usr/share/tomcat7/lib/tomcat-api.jar:/usr/share/tomcat7/lib/commons-dbcp.jar:/usr/share/tomcat7/lib/servlet-api.jar:/usr/share/tomcat7/lib/tomcat-util.jar:/usr/share/tomcat7/lib/tomcat-i18n-es.jar:/usr/share/tomcat7/lib/tomcat-dbcp.jar:/usr/share/tomcat7/lib/catalina-ha.jar:/usr/share/tomcat7/lib/tomcat-i18n-ja.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ant-1.6.5.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/antlr-2.7.7.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/c3p0-0.9.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/dom4j-1.6.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ehcache-core-2.4.3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-c3p0-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-core-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-ehcache-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-entitymanager-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-envers-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final-tests.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-proxool-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/infinispan-core-5.2.0.Beta3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/javassist-3.15.0-GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.0.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.1.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-1.3.15.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-river-1.3.15.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jgroups-3.2.0.CR1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/log4j-1.2.17.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/proxool-0.8.3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/rhq-pluginAnnotations-3.0.4.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/stax2-api-3.1.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/staxmapper-1.1.0.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/woodstox-core-asl-4.1.1.jar:/home/thiago/ufal/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar:/home/thiago/ufal/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar:/home/thiago/ufal/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/:/home/thiago/ufal/eclipse/configuration/org.eclipse.osgi/bundles/541/1/.cp/, user.name=thiago, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.7, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 60952 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames br.ufal.ic.test.TestUser, java.home=/usr/lib/jvm/java-7-openjdk-i386/jre, sun.arch.data.model=32, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/gestao, user.language=pt, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, sharing, java.version=1.7.0_09, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes, java.vendor=Oracle Corporation, file.separator=/, hibernate.hbm2ddl.auto=create-drop, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, hibernate.max_fetch_depth=5, sun.desktop=gnome, sun.cpu.isalist=}
+18:20:52,955 DEBUG IntegratorServiceImpl:59 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+18:20:53,008 DEBUG IntegratorServiceImpl:59 - Adding Integrator [org.hibernate.envers.event.EnversIntegrator].
+18:20:53,119 DEBUG Configuration:1728 - Preparing to build session factory with filters : {}
+18:20:53,200 DEBUG Configuration:3409 - Processing hbm.xml files
+18:20:53,200 DEBUG Configuration:3439 - Process annotated classes
+18:20:53,208 DEBUG AnnotationBinder:531 - Binding entity from annotated class: br.ufal.ic.srm.model.User
+18:20:53,332 DEBUG Ejb3Column:196 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+18:20:53,335 DEBUG AnnotationBinder:989 - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+18:20:53,351 DEBUG EntityBinder:394 - Import with entity name User
+18:20:53,356 DEBUG EntityBinder:564 - Bind entity br.ufal.ic.srm.model.User on table user
+18:20:53,457 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+18:20:53,473 DEBUG PropertyBinder:179 - MetadataSourceProcessor property id with lazy=false
+18:20:53,485 DEBUG SimpleValueBinder:331 - building SimpleValue for id
+18:20:53,487 DEBUG PropertyBinder:260 - Building property id
+18:20:53,495 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
+18:20:53,496 DEBUG PropertyBinder:179 - MetadataSourceProcessor property email with lazy=false
+18:20:53,496 DEBUG SimpleValueBinder:331 - building SimpleValue for email
+18:20:53,497 DEBUG PropertyBinder:260 - Building property email
+18:20:53,497 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=name, insertable=true, updatable=true, unique=false}
+18:20:53,498 DEBUG PropertyBinder:179 - MetadataSourceProcessor property name with lazy=false
+18:20:53,498 DEBUG SimpleValueBinder:331 - building SimpleValue for name
+18:20:53,499 DEBUG PropertyBinder:260 - Building property name
+18:20:53,499 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=phone_number, insertable=true, updatable=true, unique=false}
+18:20:53,499 DEBUG PropertyBinder:179 - MetadataSourceProcessor property number with lazy=false
+18:20:53,500 DEBUG SimpleValueBinder:331 - building SimpleValue for number
+18:20:53,500 DEBUG PropertyBinder:260 - Building property number
+18:20:53,501 DEBUG Ejb3Column:196 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+18:20:53,501 DEBUG PropertyBinder:179 - MetadataSourceProcessor property password with lazy=false
+18:20:53,502 DEBUG SimpleValueBinder:331 - building SimpleValue for password
+18:20:53,502 DEBUG PropertyBinder:260 - Building property password
+18:20:53,505 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for id
+18:20:53,506 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for email
+18:20:53,507 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for name
+18:20:53,507 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for number
+18:20:53,507 DEBUG SimpleValueBinder:369 - Setting SimpleValue typeName for password
+18:20:53,526 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:20:53,532 DEBUG Configuration:1578 - Processing extends queue
+18:20:53,534 DEBUG Configuration:1636 - Processing extends queue
+18:20:53,534 DEBUG Configuration:1581 - Processing collection mappings
+18:20:53,534 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:20:53,535 DEBUG Configuration:1599 - Processing association property references
+18:20:53,535 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:20:53,535 DEBUG Configuration:1622 - Processing foreign key constraints
+18:20:53,601  INFO DriverManagerConnectionProviderImpl:96 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+18:20:53,639  INFO DriverManagerConnectionProviderImpl:130 - HHH000115: Hibernate connection pool size: 5
+18:20:53,641  INFO DriverManagerConnectionProviderImpl:133 - HHH000006: Autocommit mode: false
+18:20:53,641  INFO DriverManagerConnectionProviderImpl:147 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/gestao]
+18:20:53,642  INFO DriverManagerConnectionProviderImpl:150 - HHH000046: Connection properties: {user=root, password=12345678}
+18:20:53,691 DEBUG DriverManagerConnectionProviderImpl:192 - Opening new JDBC connection
+18:20:54,159 DEBUG DriverManagerConnectionProviderImpl:202 - Created connection to: jdbc:mysql://localhost:3306/gestao, Isolation Level: 4
+18:20:54,160 DEBUG JdbcServicesImpl:121 - Database ->
+       name : MySQL
+    version : 5.5.28-0ubuntu0.12.10.2
+      major : 5
+      minor : 5
+18:20:54,160 DEBUG JdbcServicesImpl:127 - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.7 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+18:20:54,161 DEBUG JdbcServicesImpl:133 - JDBC version : 3.0
+18:20:54,182  INFO Dialect:127 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+18:20:54,231  INFO LobCreatorBuilder:94 - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+18:20:54,275 DEBUG SettingsFactory:113 - Automatic flush during beforeCompletion(): disabled
+18:20:54,276 DEBUG SettingsFactory:119 - Automatic session close at end of transaction: disabled
+18:20:54,277 DEBUG SettingsFactory:130 - JDBC batch size: 15
+18:20:54,277 DEBUG SettingsFactory:136 - JDBC batch updates for versioned data: enabled
+18:20:54,277 DEBUG SettingsFactory:146 - Scrollable result sets: enabled
+18:20:54,278 DEBUG SettingsFactory:152 - Wrap result sets: disabled
+18:20:54,278 DEBUG SettingsFactory:158 - JDBC3 getGeneratedKeys(): enabled
+18:20:54,279 DEBUG SettingsFactory:170 - multi-tenancy strategy : NONE
+18:20:54,279 DEBUG SettingsFactory:176 - Connection release mode: auto
+18:20:54,279  INFO TransactionFactoryInitiator:68 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+18:20:54,284 DEBUG SettingsFactory:212 - Maximum outer join fetch depth: 5
+18:20:54,285 DEBUG SettingsFactory:218 - Default batch fetch size: 1
+18:20:54,285 DEBUG SettingsFactory:224 - Generate SQL with comments: disabled
+18:20:54,285 DEBUG SettingsFactory:230 - Order SQL updates by primary key: disabled
+18:20:54,286 DEBUG SettingsFactory:236 - Order SQL inserts for batching: disabled
+18:20:54,286 DEBUG SettingsFactory:508 - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+18:20:54,290  INFO ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+18:20:54,291 DEBUG SettingsFactory:246 - Query language substitutions: {}
+18:20:54,291 DEBUG SettingsFactory:252 - JPA-QL strict compliance: disabled
+18:20:54,292 DEBUG SettingsFactory:260 - Second-level cache: enabled
+18:20:54,292 DEBUG SettingsFactory:266 - Query cache: disabled
+18:20:54,293 DEBUG SettingsFactory:448 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+18:20:54,295 DEBUG SettingsFactory:458 - org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+18:20:54,296 DEBUG SettingsFactory:281 - Optimize cache for minimal puts: disabled
+18:20:54,296 DEBUG SettingsFactory:296 - Structured second-level cache entries: disabled
+18:20:54,297 DEBUG SettingsFactory:305 - Statistics: enabled
+18:20:54,297 DEBUG SettingsFactory:311 - Deleted entity synthetic identifier rollback: disabled
+18:20:54,298 DEBUG SettingsFactory:335 - Default entity-mode: pojo
+18:20:54,298 DEBUG SettingsFactory:341 - Named query checking : enabled
+18:20:54,298 DEBUG SettingsFactory:347 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+18:20:54,299 DEBUG SettingsFactory:365 - Allow initialization of lazy state outside session : : disabled
+18:20:54,322 DEBUG SessionFactoryImpl:225 - Building session factory
+18:20:54,341 DEBUG SessionFactoryImpl:277 - Session factory constructed with filter configurations : {}
+18:20:54,342 DEBUG SessionFactoryImpl:278 - Instantiating session factory with properties: {java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.password=12345678, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386, java.vm.version=23.2-b09, hibernate.connection.username=root, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=OpenJDK Client VM, file.encoding.pkg=sun.io, user.country=BR, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement, java.runtime.version=1.7.0_09-b30, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.endorsed.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed, os.arch=i386, java.io.tmpdir=/tmp, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Linux, hibernate.jdbc.batch_versioned_data=true, sun.jnu.encoding=UTF-8, java.library.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386/client:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386::/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib, hibernate.generate_statistics=true, java.specification.name=Java Platform API Specification, java.class.version=51.0, hibernate.connection.pool_size=5, sun.management.compiler=HotSpot Client Compiler, os.version=3.5.0-21-generic, user.home=/home/thiago, user.timezone=America/Maceio, java.awt.printerjob=sun.print.PSPrinterJob, java.specification.version=1.7, file.encoding=UTF-8, hibernate.format_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, user.name=thiago, java.class.path=/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/build/classes:/usr/share/tomcat7/lib/catalina-ant.jar:/usr/share/tomcat7/lib/tomcat-coyote.jar:/usr/share/tomcat7/lib/catalina-tribes.jar:/usr/share/tomcat7/lib/commons-pool.jar:/usr/share/tomcat7/lib/jasper.jar:/usr/share/tomcat7/lib/annotations-api.jar:/usr/share/tomcat7/lib/jsp-api.jar:/usr/share/tomcat7/lib/tomcat-i18n-fr.jar:/usr/share/tomcat7/lib/catalina.jar:/usr/share/tomcat7/lib/jasper-el.jar:/usr/share/tomcat7/lib/el-api.jar:/usr/share/tomcat7/lib/tomcat-api.jar:/usr/share/tomcat7/lib/commons-dbcp.jar:/usr/share/tomcat7/lib/servlet-api.jar:/usr/share/tomcat7/lib/tomcat-util.jar:/usr/share/tomcat7/lib/tomcat-i18n-es.jar:/usr/share/tomcat7/lib/tomcat-dbcp.jar:/usr/share/tomcat7/lib/catalina-ha.jar:/usr/share/tomcat7/lib/tomcat-i18n-ja.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ant-1.6.5.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/antlr-2.7.7.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/c3p0-0.9.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/dom4j-1.6.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/ehcache-core-2.4.3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-c3p0-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-commons-annotations-4.0.1.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-core-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-ehcache-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-entitymanager-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-envers-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final-tests.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-infinispan-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/hibernate-proxool-4.1.10.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/infinispan-core-5.2.0.Beta3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/javassist-3.15.0-GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.0.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-logging-3.1.1.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-1.3.15.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-marshalling-river-1.3.15.GA.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/jgroups-3.2.0.CR1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/log4j-1.2.17.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/proxool-0.8.3.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/rhq-pluginAnnotations-3.0.4.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/stax2-api-3.1.1.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/staxmapper-1.1.0.Final.jar:/home/thiago/ufal/Projeto-de-programacao-3/branches/main/SystemResourceManagement/WebContent/WEB-INF/lib/woodstox-core-asl-4.1.1.jar:/home/thiago/ufal/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar:/home/thiago/ufal/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar:/home/thiago/ufal/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/:/home/thiago/ufal/eclipse/configuration/org.eclipse.osgi/bundles/541/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.7, sun.arch.data.model=32, java.home=/usr/lib/jvm/java-7-openjdk-i386/jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 60952 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames br.ufal.ic.test.TestUser, hibernate.connection.url=jdbc:mysql://localhost:3306/gestao, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Oracle Corporation, user.language=pt, awt.toolkit=sun.awt.X11.XToolkit, java.vm.info=mixed mode, sharing, java.version=1.7.0_09, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes, java.vendor=Oracle Corporation, file.separator=/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=create-drop, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=gnome, hibernate.max_fetch_depth=5, sun.cpu.isalist=}
+18:20:54,631 DEBUG Configuration:3409 - Processing hbm.xml files
+18:20:54,631 DEBUG Configuration:3439 - Process annotated classes
+18:20:54,632 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:20:54,632 DEBUG Configuration:1578 - Processing extends queue
+18:20:54,632 DEBUG Configuration:1636 - Processing extends queue
+18:20:54,632 DEBUG Configuration:1581 - Processing collection mappings
+18:20:54,632 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:20:54,633 DEBUG Configuration:1599 - Processing association property references
+18:20:54,633 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:20:54,633 DEBUG Configuration:1622 - Processing foreign key constraints
+18:20:54,635 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:20:54,956 DEBUG AbstractEntityPersister:3552 - Static SQL for entity: br.ufal.ic.srm.model.User
+18:20:54,957 DEBUG AbstractEntityPersister:3557 -  Version select: select id from user where id =?
+18:20:54,957 DEBUG AbstractEntityPersister:3560 -  Snapshot select: select user_.id, user_.email as email0_, user_.name as name0_, user_.phone_number as phone4_0_, user_.password as password0_ from user user_ where user_.id=?
+18:20:54,958 DEBUG AbstractEntityPersister:3563 -  Insert 0: insert into user (email, name, phone_number, password, id) values (?, ?, ?, ?, ?)
+18:20:54,958 DEBUG AbstractEntityPersister:3564 -  Update 0: update user set email=?, name=?, phone_number=?, password=? where id=?
+18:20:54,959 DEBUG AbstractEntityPersister:3565 -  Delete 0: delete from user where id=?
+18:20:54,959 DEBUG AbstractEntityPersister:3568 -  Identity insert: insert into user (email, name, phone_number, password) values (?, ?, ?, ?)
+18:20:55,027 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [NONE]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:20:55,028 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [READ]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:20:55,029 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [UPGRADE]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:20:55,029 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [UPGRADE_NOWAIT]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:20:55,030 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [FORCE]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:20:55,030 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [PESSIMISTIC_READ]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? lock in share mode
+18:20:55,031 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [PESSIMISTIC_WRITE]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:20:55,032 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [PESSIMISTIC_FORCE_INCREMENT]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=? for update
+18:20:55,032 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [OPTIMISTIC]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:20:55,034 DEBUG Loader:123 - Static select for entity br.ufal.ic.srm.model.User [OPTIMISTIC_FORCE_INCREMENT]: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:20:55,053 DEBUG Loader:56 - Static select for action ACTION_MERGE on entity br.ufal.ic.srm.model.User: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:20:55,054 DEBUG Loader:56 - Static select for action ACTION_REFRESH on entity br.ufal.ic.srm.model.User: select user0_.id as id0_0_, user0_.email as email0_0_, user0_.name as name0_0_, user0_.phone_number as phone4_0_0_, user0_.password as password0_0_ from user user0_ where user0_.id=?
+18:20:55,086 DEBUG SessionFactoryRegistry:62 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@c45a8d
+18:20:55,100 DEBUG SessionFactoryRegistry:75 - Registering SessionFactory: 02946685-5fd3-461d-b2c9-f8f1615d8de5 (<unnamed>)
+18:20:55,102 DEBUG SessionFactoryRegistry:82 - Not binding SessionFactory to JNDI, no JNDI name configured
+18:20:55,102 DEBUG SessionFactoryImpl:486 - Instantiated session factory
+18:20:55,142 DEBUG Configuration:3409 - Processing hbm.xml files
+18:20:55,143 DEBUG Configuration:3439 - Process annotated classes
+18:20:55,144 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:20:55,144 DEBUG Configuration:1578 - Processing extends queue
+18:20:55,144 DEBUG Configuration:1636 - Processing extends queue
+18:20:55,145 DEBUG Configuration:1581 - Processing collection mappings
+18:20:55,145 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:20:55,145 DEBUG Configuration:1599 - Processing association property references
+18:20:55,145 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:20:55,145 DEBUG Configuration:1622 - Processing foreign key constraints
+18:20:55,146 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:20:55,148 DEBUG Configuration:3409 - Processing hbm.xml files
+18:20:55,149 DEBUG Configuration:3439 - Process annotated classes
+18:20:55,149 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:20:55,149 DEBUG Configuration:1578 - Processing extends queue
+18:20:55,149 DEBUG Configuration:1636 - Processing extends queue
+18:20:55,150 DEBUG Configuration:1581 - Processing collection mappings
+18:20:55,150 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:20:55,150 DEBUG Configuration:1599 - Processing association property references
+18:20:55,150 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:20:55,151 DEBUG Configuration:1622 - Processing foreign key constraints
+18:20:55,151 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:20:55,152 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:20:55,154  INFO SchemaExport:343 - HHH000227: Running hbm2ddl schema export
+18:20:55,155 DEBUG SchemaExport:353 - Import file not found: /import.sql
+18:20:55,158 DEBUG SQL:104 - 
+    drop table if exists user
+18:20:55,357 DEBUG SQL:104 - 
+    create table user (
+        id integer not null auto_increment,
+        email varchar(45),
+        name varchar(40) not null,
+        phone_number varchar(20),
+        password varchar(100) not null,
+        primary key (id)
+    )
+18:20:55,520  INFO SchemaExport:405 - HHH000230: Schema export complete
+18:20:55,520 DEBUG Configuration:3409 - Processing hbm.xml files
+18:20:55,520 DEBUG Configuration:3439 - Process annotated classes
+18:20:55,520 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:20:55,521 DEBUG Configuration:1578 - Processing extends queue
+18:20:55,521 DEBUG Configuration:1636 - Processing extends queue
+18:20:55,521 DEBUG Configuration:1581 - Processing collection mappings
+18:20:55,521 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:20:55,521 DEBUG Configuration:1599 - Processing association property references
+18:20:55,521 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:20:55,522 DEBUG Configuration:1622 - Processing foreign key constraints
+18:20:55,524 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:20:55,524 DEBUG Configuration:3409 - Processing hbm.xml files
+18:20:55,525 DEBUG Configuration:3439 - Process annotated classes
+18:20:55,526 DEBUG Configuration:1398 - Processing fk mappings (*ToOne and JoinedSubclass)
+18:20:55,526 DEBUG Configuration:1578 - Processing extends queue
+18:20:55,527 DEBUG Configuration:1636 - Processing extends queue
+18:20:55,527 DEBUG Configuration:1581 - Processing collection mappings
+18:20:55,528 DEBUG Configuration:1591 - Processing native query and ResultSetMapping mappings
+18:20:55,528 DEBUG Configuration:1599 - Processing association property references
+18:20:55,528 DEBUG Configuration:1621 - Creating tables' unique integer identifiers
+18:20:55,528 DEBUG Configuration:1622 - Processing foreign key constraints
+18:20:55,529 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:20:55,529 DEBUG DefaultIdentifierGeneratorFactory:107 - Setting dialect [org.hibernate.dialect.MySQLDialect]
+18:20:55,530 DEBUG SessionFactoryImpl:1058 - Checking 0 named HQL queries
+18:20:55,530 DEBUG SessionFactoryImpl:1081 - Checking 0 named SQL queries
+18:20:55,562 DEBUG StatisticsInitiator:110 - Statistics initialized [enabled=true]
+18:20:55,679 DEBUG AbstractTransactionImpl:158 - begin
+18:20:55,691 DEBUG LogicalConnectionImpl:295 - Obtaining JDBC connection
+18:20:55,691 DEBUG LogicalConnectionImpl:301 - Obtained JDBC connection
+18:20:55,692 DEBUG JdbcTransaction:69 - initial autocommit status: false
+18:20:55,745 DEBUG ActionQueue:202 - Executing identity-insert immediately
+18:20:55,803 DEBUG SQL:104 - 
+    insert 
+    into
+        user
+        (email, name, phone_number, password) 
+    values
+        (?, ?, ?, ?)
+18:20:55,912 DEBUG IdentifierGeneratorHelper:93 - Natively generated identity: 1
+18:20:55,921 DEBUG AbstractTransactionImpl:173 - committing
+18:20:55,923 DEBUG AbstractFlushingEventListener:143 - Processing flush-time cascades
+18:20:55,924 DEBUG AbstractFlushingEventListener:183 - Dirty checking collections
+18:20:55,928 DEBUG AbstractFlushingEventListener:117 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+18:20:55,929 DEBUG AbstractFlushingEventListener:124 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+18:20:55,931 DEBUG EntityPrinter:114 - Listing entities:
+18:20:55,932 DEBUG EntityPrinter:121 - br.ufal.ic.srm.model.User{id=1, email=eu@eu.com, name=Thiago, number=8809-2604, password=complicada007}
+18:20:55,975 DEBUG JdbcTransaction:113 - committed JDBC Connection
+18:20:55,979 DEBUG LogicalConnectionImpl:314 - Releasing JDBC connection
+18:20:55,980 DEBUG LogicalConnectionImpl:332 - Released JDBC connection
+18:20:55,980 DEBUG ConnectionProxyHandler:219 - HHH000163: Logical connection releasing its physical connection
