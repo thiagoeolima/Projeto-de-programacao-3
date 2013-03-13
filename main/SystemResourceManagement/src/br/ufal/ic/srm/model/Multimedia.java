@@ -1,6 +1,8 @@
 package br.ufal.ic.srm.model;
 
-public class Multimedia {
+import java.util.List;
+
+public class Multimedia implements Model{
 
 	private int idMultimedia;
 	private String model;
@@ -59,6 +61,18 @@ public class Multimedia {
 
 	public void setMediaType(String mediaType) {
 		this.mediaType = mediaType;
+	}
+
+	@Override
+	public boolean validate() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List errors() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

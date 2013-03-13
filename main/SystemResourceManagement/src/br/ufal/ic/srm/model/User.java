@@ -1,5 +1,8 @@
 package br.ufal.ic.srm.model;
 
+
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +11,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "user")
-public class User {
+public class User implements Model{
 	@Id
 	@GeneratedValue
 	private Integer id;
@@ -18,6 +21,9 @@ public class User {
 
 	@Column(columnDefinition = "varchar(45)")
 	private String email;
+
+	@Column(columnDefinition = "varchar(20)", nullable = false)
+	private String login;
 
 	@Column(name = "password", columnDefinition = "varchar(100)", nullable = false)
 	private String password;
@@ -67,6 +73,22 @@ public class User {
 
 	public void setNumber(String number) {
 		this.number = number;
+	}
+
+	public boolean validate() {
+		if(login != null && password != null){
+			//consulta
+			return true;
+			
+		}
+
+		return false;
+	}
+	
+	public List errors() {
+		//Criar lista de Logs
+		return null;
+		
 	}
 
 }
