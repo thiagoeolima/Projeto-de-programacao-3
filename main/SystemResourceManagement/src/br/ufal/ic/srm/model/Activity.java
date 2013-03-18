@@ -2,17 +2,43 @@ package br.ufal.ic.srm.model;
 
 import java.util.List;
 
-public class Activity implements Model{
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
-	private int idActivities;
+import org.hibernate.annotations.Cascade;
+
+@Entity
+@Table(name="activities")
+public class Activity implements Model{
+	@Id
+	@GeneratedValue
+	private int id;
+	
+	@Column(columnDefinition = "varchar(40)",nullable=false)
 	private String title;
+	
+	@Column(columnDefinition = "varchar(40)")
 	private String description;
+	
+	@Column(columnDefinition = "int(5)")
 	private int numberMembers;
+	
+	@Column(columnDefinition = "varchar(40)")
 	private String supportItens;
+	
+	@ManyToOne
+	@JoinColumn(name = "user_id", referencedColumnName = "id")
+	@Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+	private User user;
 
 	public Activity(int idActivities, String title, String description,
 			int numberMembers, String supportItens) {
-		this.idActivities = idActivities;
+		this.id = idActivities;
 		this.title = title;
 		this.description = description;
 		this.numberMembers = numberMembers;
@@ -23,12 +49,12 @@ public class Activity implements Model{
 		
 	}
 
-	public int getIdActivities() {
-		return idActivities;
+	public int getId() {
+		return id;
 	}
 
-	public void setIdActivities(int idActivities) {
-		this.idActivities = idActivities;
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getTitle() {
@@ -61,6 +87,14 @@ public class Activity implements Model{
 
 	public void setSupportItens(String supportItens) {
 		this.supportItens = supportItens;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 	@Override

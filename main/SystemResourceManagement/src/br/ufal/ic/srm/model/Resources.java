@@ -1,20 +1,39 @@
 package br.ufal.ic.srm.model;
 
 import java.util.Date;
+import java.util.List;
 
-public class Resources {
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-	private int resourceId;
+@Entity
+@Table(name = "resources")
+public class Resources implements Model {
+	@Id
+	@GeneratedValue
+	private int id;
+
+	@Column(name = "start", columnDefinition = "date", nullable = false)
 	private Date iniDate;
+	
+	@Column(name = "finish", columnDefinition = "date", nullable = false)
 	private Date endDte;
+
+	@Column(columnDefinition = "BOOLEAN",nullable=false)
 	private String status;
+
 	private User responsable;
+
 	private Activities activities;
+
 	private Places places;
 
-	public Resources(int resourceId, Date iniDate, Date endDte, String status,
+	public Resources(int id, Date iniDate, Date endDte, String status,
 			User responsable, Activities activities, Places places) {
-		this.resourceId = resourceId;
+		this.id = id;
 		this.iniDate = iniDate;
 		this.endDte = endDte;
 		this.status = status;
@@ -22,17 +41,17 @@ public class Resources {
 		this.activities = activities;
 		this.places = places;
 	}
-	
-	public Resources(){
-		
+
+	public Resources() {
+
 	}
 
-	public int getResourceId() {
-		return resourceId;
+	public int getId() {
+		return id;
 	}
 
-	public void setResourceId(int resourceId) {
-		this.resourceId = resourceId;
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public Date getIniDate() {
@@ -82,8 +101,17 @@ public class Resources {
 	public void setPlaces(Places places) {
 		this.places = places;
 	}
-	
-	
-	
+
+	@Override
+	public boolean validate() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List errors() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

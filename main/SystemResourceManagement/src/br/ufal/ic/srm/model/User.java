@@ -5,12 +5,14 @@ import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User implements Model{
 	@Id
 	@GeneratedValue
@@ -30,10 +32,9 @@ public class User implements Model{
 
 	@Column(name = "phone_number", columnDefinition = "varchar(20)")
 	private String number;
-
-	public User() {
-		// TODO Auto-generated constructor stub
-	}
+	
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
+	private List<Activity> activity;
 
 	public Integer getId() {
 		return id;
@@ -59,6 +60,14 @@ public class User implements Model{
 		this.email = email;
 	}
 
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
 	public String getPassword() {
 		return password;
 	}
@@ -73,6 +82,16 @@ public class User implements Model{
 
 	public void setNumber(String number) {
 		this.number = number;
+	}
+
+
+
+	public List<Activity> getActivities() {
+		return activity;
+	}
+
+	public void setActivities(List<Activity> activities) {
+		this.activity = activities;
 	}
 
 	public boolean validate() {
