@@ -1,6 +1,5 @@
 package br.ufal.ic.srm.model;
 
-
 import java.util.List;
 
 import javax.persistence.Column;
@@ -17,8 +16,8 @@ import br.ufal.ic.srm.util.HibernateUtility;
 
 @Entity
 @Table(name = "user")
-public class User extends Model{
-	
+public class User extends Model {
+
 	@Id
 	@GeneratedValue
 	private Integer id;
@@ -37,10 +36,10 @@ public class User extends Model{
 
 	@Column(name = "phone_number", columnDefinition = "varchar(20)")
 	private String number;
-	
+
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
 	private List<Resource> resourcesList;
-	
+
 	public Integer getId() {
 		return id;
 	}
@@ -89,7 +88,6 @@ public class User extends Model{
 		this.number = number;
 	}
 
-
 	public List<Resource> getResourcesList() {
 		return resourcesList;
 	}
@@ -99,21 +97,26 @@ public class User extends Model{
 	}
 
 	public boolean validate() {
-		if(login != null && password != null){
-		List<User> user = HibernateUtility.getSession().createCriteria(User.class)
-		    .add( Restrictions.like("login", this.login) )
-		    .add( Restrictions.like("password",this.password) )
-		    .list();
-	
-			if(user != null) return true;
+
+		List<User> user = HibernateUtility.getSession()
+				.createCriteria(User.class)
+				.add(Restrictions.like("login", this.login))
+				.add(Restrictions.like("password", this.password)).list();
+
+		if (user != null) {
+			
+			
+			
+			return true;
 		}
+
 		return false;
 	}
-	
+
 	public List errors() {
-		//Criar lista de Logs
+		// Criar lista de Logs
 		return null;
-		
+
 	}
 
 }
