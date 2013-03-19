@@ -103,10 +103,16 @@ public class User extends Model {
 				.add(Restrictions.like("login", this.login))
 				.add(Restrictions.like("password", this.password)).list();
 
-		if (user != null) {
+		if (!user.isEmpty()) {
+			this.email = user.get(0).getEmail();
+			this.id = user.get(0).getId();
+			this.login = user.get(0).getLogin();
+			this.name = user.get(0).getName();
+			this.number = user.get(0).getNumber();
 			
-			
-			
+			System.out.println(email);
+			System.out.println(name);
+
 			return true;
 		}
 
