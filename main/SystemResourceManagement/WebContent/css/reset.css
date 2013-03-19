@@ -1,0 +1,34 @@
+/* 
+    Document   : reset
+    Created on : 17/03/2013, 15:37:18
+    Author     : thiago
+    Description:
+        Purpose of the stylesheet follows.
+*/
+a {
+  text-decoration: none;
+}
+.login-screen {
+  background-color: #FFF;
+  min-height: 317px;
+  padding: 0;
+  padding-top: 100px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.login-icon {
+  left: 20px;
+  position: relative;
+  float: left;
+  top: 10px;
+  width: 96px;
+}
+.login-form {
+  margin-left: 200px;
+}
+.container-fluid{
+padding-top: 70px;
+
+}
