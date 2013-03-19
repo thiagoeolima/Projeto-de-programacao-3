@@ -2,16 +2,19 @@ package br.ufal.ic.test;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.criterion.Restrictions;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 import br.ufal.ic.srm.model.Activity;
+import br.ufal.ic.srm.model.Multimedia;
+import br.ufal.ic.srm.model.Resource;
 import br.ufal.ic.srm.model.User;
 import br.ufal.ic.srm.util.HibernateUtility;
 
@@ -40,6 +43,10 @@ public class TestUser {
 		user.setNumber("8809-2604");
 		user.setPassword("complicada007");
 		user.setLogin("casa");
+		
+		List<Resource> list = new ArrayList<Resource>();
+		
+		user.setResourcesList(list);
 
 		session.save(user);
 		transaction.commit();
@@ -58,44 +65,45 @@ public class TestUser {
 		activity.setSupportItens("1");
 		activity.setTitle("teste");
 
-		User user = (User) session.get(User.class,  new Integer(1));
-		activity.setUser(user);
-
 		session.save(activity);
 		transaction.commit();
 
-		Activity r = (Activity) session.get(Activity.class, new Integer(1));
-		assertEquals(activity, r);
+		Activity a = (Activity) session.get(Activity.class, new Integer(1));
+		assertEquals(activity, a);
 
 	}
 
 	@Test
-	public void createjTest() {
-		Activity activity = new Activity();
+	public void createMultimedia() {
+		Multimedia multimedia = new Multimedia();
 
-		activity.setDescription("uhu");
-		activity.setNumberMembers(5);
-		activity.setSupportItens("1");
-		activity.setTitle("teste");
+		multimedia.setMediaType("Retroprojetor");
+		multimedia.setModel("CCE - 1234");
+		multimedia.setPlugsType("NTI");
+		multimedia.setVoltage(220);
 
-		//User user = (User) session.get(User.class, "Thiago");
-		
-		List<User> listUser = this.session.createCriteria(User.class).list();
-		System.out.println("--------------------------------o--------------------------------");
-		System.out.println(listUser.size());
-	
-		for (User p: listUser) {
-			System.out.println(p.getEmail());
-			activity.setUser(p);
-		}
-		
-
-		session.save(activity);
+		session.save(multimedia);
 		transaction.commit();
 
-		Activity r = (Activity) session.get(Activity.class, new Integer(2));
-		assertEquals(activity, r);
+		Multimedia m = (Multimedia) session.get(Multimedia.class,
+				new Integer(1));
+		assertEquals(multimedia, m);
 
+	}
+
+	@Test
+	public void createResource() {
+		Resource resource = new Resource();
+
+		resource.setIniDate(new Date());
+		resource.setEndDate(new Date());
+		resource.setStatus(true);
+
+		session.save(resource);
+		transaction.commit();
+
+		Resource r = (Resource) session.get(Resource.class, new Integer(1));
+		assertEquals(resource, r);
 	}
 
 }

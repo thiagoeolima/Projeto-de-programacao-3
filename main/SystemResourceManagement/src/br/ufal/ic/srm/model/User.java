@@ -11,9 +11,14 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import org.hibernate.criterion.Restrictions;
+
+import br.ufal.ic.srm.util.HibernateUtility;
+
 @Entity
-@Table(name = "users")
-public class User implements Model{
+@Table(name = "user")
+public class User extends Model{
+	
 	@Id
 	@GeneratedValue
 	private Integer id;
@@ -34,8 +39,8 @@ public class User implements Model{
 	private String number;
 	
 	@OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
-	private List<Activity> activity;
-
+	private List<Resource> resourcesList;
+	
 	public Integer getId() {
 		return id;
 	}
@@ -85,22 +90,23 @@ public class User implements Model{
 	}
 
 
-
-	public List<Activity> getActivities() {
-		return activity;
+	public List<Resource> getResourcesList() {
+		return resourcesList;
 	}
 
-	public void setActivities(List<Activity> activities) {
-		this.activity = activities;
+	public void setResourcesList(List<Resource> resourcesList) {
+		this.resourcesList = resourcesList;
 	}
 
 	public boolean validate() {
 		if(login != null && password != null){
-			//consulta
-			return true;
-			
+		List<User> user = HibernateUtility.getSession().createCriteria(User.class)
+		    .add( Restrictions.like("login", this.login) )
+		    .add( Restrictions.like("password",this.password) )
+		    .list();
+	
+			if(user != null) return true;
 		}
-
 		return false;
 	}
 	

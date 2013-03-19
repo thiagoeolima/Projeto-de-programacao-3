@@ -1,12 +1,16 @@
 package br.ufal.ic.srm.model;
 
-import java.io.Serializable;
 import java.util.List;
 
-public interface Model{
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
-	public boolean validate();
-	
-	public List errors();
-	
+import br.ufal.ic.srm.util.HibernateUtility;
+
+public abstract class Model {
+
+	public abstract boolean validate();
+
+	public abstract List errors();
+
 }

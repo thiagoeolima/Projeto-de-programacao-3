@@ -2,22 +2,44 @@ package br.ufal.ic.srm.model;
 
 import java.util.List;
 
-public class Place implements Model{
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
 
+@Entity
+@Table(name="place")
+public class Place extends Model {
+
+	@Id
+	@GeneratedValue
+	private int id;
+
+	@Column(columnDefinition = "varchar(50)", nullable = false)
 	private String name;
-	private int capacity;
-	private String plugsType;
-	private int idPlace;
 
-	public Place(String name, int capacity, String plugsType, int idPlace) {
-		this.name = name;
-		this.capacity = capacity;
-		this.plugsType = plugsType;
-		this.idPlace = idPlace;
-	}
+	@Column(columnDefinition = "int(3)", nullable = false)
+	private int capacity;
+
+	@Column(columnDefinition = "varchar(40)", nullable = false)
+	private String plugsType;
+
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "place")
+	private List<Resource> resourcesList;
 
 	public Place() {
 
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getName() {
@@ -44,12 +66,12 @@ public class Place implements Model{
 		this.plugsType = plugsType;
 	}
 
-	public int getIdPlace() {
-		return idPlace;
+	public List<Resource> getResourcesList() {
+		return resourcesList;
 	}
 
-	public void setIdPlace(int idPlace) {
-		this.idPlace = idPlace;
+	public void setResourcesList(List<Resource> resourcesList) {
+		this.resourcesList = resourcesList;
 	}
 
 	@Override

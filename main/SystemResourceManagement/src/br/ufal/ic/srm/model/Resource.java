@@ -3,37 +3,58 @@ package br.ufal.ic.srm.model;
 import java.util.Date;
 import java.util.List;
 
-public class Resource implements Model{
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
-	private int resourceId;
+import org.hibernate.annotations.Cascade;
+
+@Entity
+@Table(name = "resource")
+public class Resource extends Model {
+	@Id
+	@GeneratedValue
+	private int id;
+
+	@Column(name = "start", columnDefinition = "date", nullable = false)
 	private Date iniDate;
-	private Date endDte;
-	private String status;
-	private User responsable;
-	private Activity activities;
-	private Place places;
 
-	public Resource(int resourceId, Date iniDate, Date endDte, String status,
-			User responsable, Activity activities, Place places) {
-		this.resourceId = resourceId;
-		this.iniDate = iniDate;
-		this.endDte = endDte;
-		this.status = status;
-		this.responsable = responsable;
-		this.activities = activities;
-		this.places = places;
-	}
-	
-	public Resource(){
-		
+	@Column(name = "finish", columnDefinition = "date", nullable = false)
+	private Date endDate;
+
+	@Column(columnDefinition = "boolean", nullable = false)
+	private Boolean status;
+
+	@ManyToOne
+	@JoinColumn(name = "user_id", referencedColumnName = "id")
+	@Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+	private User user;
+
+	@ManyToOne
+	@JoinColumn(name = "activity_id", referencedColumnName = "id")
+	@Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+	private Activity activity;
+
+	@ManyToOne
+	@JoinColumn(name = "place_id", referencedColumnName = "id")
+	@Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+	private Place place;
+
+	@ManyToOne
+	@JoinColumn(name = "multimedia_id", referencedColumnName = "id")
+	@Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
+	private Multimedia multimedia;
+
+	public int getId() {
+		return id;
 	}
 
-	public int getResourceId() {
-		return resourceId;
-	}
-
-	public void setResourceId(int resourceId) {
-		this.resourceId = resourceId;
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public Date getIniDate() {
@@ -44,44 +65,52 @@ public class Resource implements Model{
 		this.iniDate = iniDate;
 	}
 
-	public Date getEndDte() {
-		return endDte;
+	public Date getEndDate() {
+		return endDate;
 	}
 
-	public void setEndDte(Date endDte) {
-		this.endDte = endDte;
+	public void setEndDate(Date endDate) {
+		this.endDate = endDate;
 	}
 
-	public String getStatus() {
+	public Boolean getStatus() {
 		return status;
 	}
 
-	public void setStatus(String status) {
+	public void setStatus(Boolean status) {
 		this.status = status;
 	}
 
-	public User getResponsable() {
-		return responsable;
+	public User getUser() {
+		return user;
 	}
 
-	public void setResponsable(User responsable) {
-		this.responsable = responsable;
+	public void setUser(User user) {
+		this.user = user;
 	}
 
-	public Activity getActivities() {
-		return activities;
+	public Activity getActivity() {
+		return activity;
 	}
 
-	public void setActivities(Activity activities) {
-		this.activities = activities;
+	public void setActivity(Activity activity) {
+		this.activity = activity;
 	}
 
-	public Place getPlaces() {
-		return places;
+	public Place getPlace() {
+		return place;
 	}
 
-	public void setPlaces(Place places) {
-		this.places = places;
+	public void setPlace(Place place) {
+		this.place = place;
+	}
+
+	public Multimedia getMultimedia() {
+		return multimedia;
+	}
+
+	public void setMultimedia(Multimedia multimedia) {
+		this.multimedia = multimedia;
 	}
 
 	@Override
@@ -95,8 +124,5 @@ public class Resource implements Model{
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-	
-	
 
 }

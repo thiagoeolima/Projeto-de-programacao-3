@@ -4,17 +4,19 @@ import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import org.hibernate.annotations.Cascade;
 
 @Entity
-@Table(name="activities")
-public class Activity implements Model{
+@Table(name="activity")
+public class Activity extends Model{
 	@Id
 	@GeneratedValue
 	private int id;
@@ -31,10 +33,9 @@ public class Activity implements Model{
 	@Column(columnDefinition = "varchar(40)")
 	private String supportItens;
 	
-	@ManyToOne
-	@JoinColumn(name = "user_id", referencedColumnName = "id")
-	@Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE)
-	private User user;
+	@OneToMany(fetch = FetchType.LAZY, mappedBy = "activity")
+	private List<Resource> resourcesList;
+
 
 	public Activity(int idActivities, String title, String description,
 			int numberMembers, String supportItens) {
@@ -89,12 +90,12 @@ public class Activity implements Model{
 		this.supportItens = supportItens;
 	}
 
-	public User getUser() {
-		return user;
+	public List<Resource> getResourcesList() {
+		return resourcesList;
 	}
 
-	public void setUser(User user) {
-		this.user = user;
+	public void setResourcesList(List<Resource> resourcesList) {
+		this.resourcesList = resourcesList;
 	}
 
 	@Override
