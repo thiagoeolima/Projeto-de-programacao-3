@@ -83,7 +83,7 @@ public abstract class View {
 		output.println("</a>");
 		output.println("<ul>");
 		output.println("<li><a href=\"user/editar\">Editar</a></li>");
-		output.println("<li><a href=\"logout/\">Logout</a></li>");
+		output.println("<li><a href=\"logout\">Logout</a></li>");
 		output.println("</ul> <!-- /Sub menu -->");
 		output.println("</li>");
 		output.println("</ul>");
