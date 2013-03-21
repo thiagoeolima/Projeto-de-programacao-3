@@ -33,7 +33,7 @@ public class ConsultController extends Controller {
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 
-		new ConsultView().generate(null, response);
+		new ConsultView().generate(null, request, response);
 
 	}
 

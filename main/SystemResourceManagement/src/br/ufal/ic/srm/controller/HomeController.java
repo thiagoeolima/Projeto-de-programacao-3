@@ -24,11 +24,13 @@ public class HomeController extends Controller {
 	public HomeController() {
 		super();
 	}
+
 	@Override
 	protected void doGet(HttpServletRequest request,
-			HttpServletResponse response)throws ServletException, IOException{
+			HttpServletResponse response) throws ServletException, IOException {
+		isLogin(request, response);
 
-		new HomeView().generate(null, response);
+		new HomeView().generate(null, request, response);
 
 	}
 

@@ -6,6 +6,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
@@ -20,20 +21,24 @@ public abstract class Controller extends HttpServlet {
 	/**
 	 * 
 	 */
-	private Session session;
-	private Transaction transaction;
-
 	public Controller() {
-		session = HibernateUtility.getSession();
-		transaction = session.beginTransaction();
-	}
 
-	public Session getSession() {
-		return session;
 	}
-
-	public Transaction getTransaction() {
-		return transaction;
+	
+	public static void isLogin(HttpServletRequest request,
+			HttpServletResponse response) {
+		HttpSession session = request.getSession();
+		
+		if (session.getAttribute("user") == null) {		
+			try {
+				response.sendRedirect("http://localhost:8080/SystemResourceManagement/login");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		
 	}
 
 	/**

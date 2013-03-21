@@ -3,11 +3,11 @@ package br.ufal.ic.srm.view;
 public class HomeView extends View {
 
 	public HomeView() {
-		super();
+		super.title = "Home page";
 	}
 
 	@Override
-	public void content() {
+	protected void content() {
 		// TODO Auto-generated method stub
 
 	}

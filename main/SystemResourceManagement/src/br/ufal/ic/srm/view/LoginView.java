@@ -3,17 +3,20 @@ package br.ufal.ic.srm.view;
 public class LoginView extends View {
 
 	public LoginView() {
-		super();
+		super.title = "Login";
 	}
 
 	@Override
-	public void topMenu() {
-		
+	protected void topMenu() {
+
 	}
 
 	@Override
-	public void content() {
+	protected void leftMenu() {
+	}
 
+	@Override
+	protected void content() {
 		output.println("<div class=\"login-screen\">");
 		output.println("<div class=\"login-icon\">");
 		output.println("<img src=\"http://www.ufal.edu.br/unidadeacademica/ic/configuracao/ic.png\" alt=\"Welcome to Resource Manager\">");
@@ -32,6 +35,11 @@ public class LoginView extends View {
 		output.println("<a class=\"login-link\" href=\"#\">Lost your password?</a>");
 		output.println("</form>");
 		output.println("</div>");
+	}
+	
+	@Override
+	protected void footer(){
+		
 	}
 
 }

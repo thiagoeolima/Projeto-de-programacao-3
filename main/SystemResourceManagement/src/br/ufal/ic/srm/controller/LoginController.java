@@ -29,10 +29,10 @@ public class LoginController extends Controller {
 		super();
 	}
 
-	public void doGet(HttpServletRequest req, HttpServletResponse response)
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		new LoginView().generate(null, response);
+		new LoginView().generate(null, request, response);
 
 	}
 
@@ -57,7 +57,7 @@ public class LoginController extends Controller {
 
 		}
 
-		new LoginView().generate(user, response);
+		new LoginView().generate(user, request, response);
 
 	}
 

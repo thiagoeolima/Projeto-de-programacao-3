@@ -32,7 +32,7 @@ public class RelatoryController extends Controller {
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException{ // TODO Auto-generated method stub
 		
-		new RelatoryView().generate(null, response);
+		new RelatoryView().generate(null, request, response);
 
 	}
 

@@ -33,7 +33,7 @@ public class RegisterController extends Controller {
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		
-		new RegisterView().generate(null, response);
+		new RegisterView().generate(null, request, response);
 
 	}
 

@@ -30,7 +30,7 @@ public class HistoricController extends Controller {
 	protected void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException{
 		
-		new HistoricView().generate(null, response);
+		new HistoricView().generate(null, request, response);
 	}
 
 	/**
